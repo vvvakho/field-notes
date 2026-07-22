@@ -1,11 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
-import {
-  Pressable,
-  SafeAreaView,
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
+import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
 import { CaptureScreen } from './src/screens/CaptureScreen';
 import { AskScreen } from './src/screens/AskScreen';
@@ -54,39 +49,41 @@ export default function App() {
   }, []);
 
   return (
-    <SafeAreaView style={styles.root}>
-      <StatusBar style="light" />
-      <View style={styles.body}>
-        {tab === 'home' ? <AskScreen notes={notes} /> : null}
-        {tab === 'capture' ? <CaptureScreen onCaptured={onNote} /> : null}
-        {tab === 'library' ? (
-          <NotesScreen
-            notes={notes}
-            onChange={onNote}
-            onReplace={(next) => setNotes([...next])}
-          />
-        ) : null}
-      </View>
-      <View style={styles.tabs}>
-        {(
-          [
-            ['home', 'Home'],
-            ['capture', 'Capture'],
-            ['library', 'Library'],
-          ] as const
-        ).map(([id, label]) => (
-          <Pressable
-            key={id}
-            style={[styles.tab, tab === id && styles.tabActive]}
-            onPress={() => setTab(id)}
-          >
-            <Text style={[styles.tabText, tab === id && styles.tabTextActive]}>
-              {label}
-            </Text>
-          </Pressable>
-        ))}
-      </View>
-    </SafeAreaView>
+    <SafeAreaProvider>
+      <SafeAreaView style={styles.root} edges={['top', 'left', 'right']}>
+        <StatusBar style="light" />
+        <View style={styles.body}>
+          {tab === 'home' ? <AskScreen notes={notes} /> : null}
+          {tab === 'capture' ? <CaptureScreen onCaptured={onNote} /> : null}
+          {tab === 'library' ? (
+            <NotesScreen
+              notes={notes}
+              onChange={onNote}
+              onReplace={(next) => setNotes([...next])}
+            />
+          ) : null}
+        </View>
+        <View style={styles.tabs}>
+          {(
+            [
+              ['home', 'Home'],
+              ['capture', 'Capture'],
+              ['library', 'Library'],
+            ] as const
+          ).map(([id, label]) => (
+            <Pressable
+              key={id}
+              style={[styles.tab, tab === id && styles.tabActive]}
+              onPress={() => setTab(id)}
+            >
+              <Text style={[styles.tabText, tab === id && styles.tabTextActive]}>
+                {label}
+              </Text>
+            </Pressable>
+          ))}
+        </View>
+      </SafeAreaView>
+    </SafeAreaProvider>
   );
 }
 

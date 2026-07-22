@@ -135,6 +135,12 @@ app.get('/health', (c) =>
 
 app.get('/notes', (c) => c.json({ notes: listNotes() }));
 
+app.get('/notes/:note_id', (c) => {
+  const note = listNotes().find((n) => n.note_id === c.req.param('note_id'));
+  if (!note) return c.text('not found', 404);
+  return c.json(note);
+});
+
 app.get('/media/:note_id', (c) => {
   const note = listNotes().find((n) => n.note_id === c.req.param('note_id'));
   if (!note?.video_path || !existsSync(note.video_path)) {
@@ -201,31 +207,59 @@ app.post('/ingest', async (c) => {
   const bytes = Buffer.from(await video.arrayBuffer());
   await writeFile(rawPath, bytes);
 
-  try {
-    const note = await ingestPipeline({
-      note_id,
-      sensors,
-      rawPath,
-      videoPath,
-      title,
-      demo_label,
-    });
-    const { cost, ...persisted } = note;
-    saveNote(persisted);
-    return c.json({ ...persisted, cost });
-  } catch (err) {
-    const message = err instanceof Error ? err.message : 'ingest failed';
-    console.error('ingest error:', message);
-    return c.text(message, 500);
-  } finally {
-    if (existsSync(rawPath)) {
-      try {
-        unlinkSync(rawPath);
-      } catch {
-        // ignore
+  // Return immediately so phone tunnels don't 502 while Gemini runs.
+  const pending: FieldNote = {
+    note_id,
+    created_at: new Date().toISOString(),
+    title: title || 'Field capture',
+    demo_label,
+    sensors,
+    summary: 'Uploaded — indexing with Gemini…',
+    transcript: [],
+    events: [],
+    index_chunks: [],
+    media: { original_bytes: bytes.length },
+    video_path: videoPath,
+    status: 'syncing',
+  };
+  saveNote(pending);
+
+  void (async () => {
+    try {
+      const note = await ingestPipeline({
+        note_id,
+        sensors,
+        rawPath,
+        videoPath,
+        title,
+        demo_label,
+      });
+      const { cost, ...persisted } = note;
+      saveNote(persisted);
+      console.log(
+        `[ingest] ${note_id} ready · cost $${(cost?.estimated_usd ?? 0).toFixed(4)}`,
+      );
+    } catch (err) {
+      const message = err instanceof Error ? err.message : 'ingest failed';
+      console.error('ingest error:', message);
+      saveNote({
+        ...pending,
+        status: 'error',
+        error_message: message,
+        summary: `Ingest failed: ${message}`,
+      });
+    } finally {
+      if (existsSync(rawPath)) {
+        try {
+          unlinkSync(rawPath);
+        } catch {
+          // ignore
+        }
       }
     }
-  }
+  })();
+
+  return c.json(pending, 202);
 });
 
 app.post('/ask', async (c) => {

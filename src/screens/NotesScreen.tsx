@@ -7,7 +7,7 @@ import {
   Text,
   View,
 } from 'react-native';
-import { Video, ResizeMode } from 'expo-av';
+import { useVideoPlayer, VideoView } from 'expo-video';
 import type { FieldNote } from '../types/notes';
 import { ingestCapture, listServerNotes, pingServer } from '../lib/api';
 import { API_URL } from '../lib/config';
@@ -180,12 +180,19 @@ function VideoThumb({ note }: { note: FieldNote }) {
     note.local_video_uri ||
     (note.status === 'ready' ? `${API_URL}/media/${note.note_id}` : null);
   if (!uri) return null;
+  return <LibraryVideo uri={uri} />;
+}
+
+function LibraryVideo({ uri }: { uri: string }) {
+  const player = useVideoPlayer(uri, (p) => {
+    p.loop = false;
+  });
   return (
-    <Video
+    <VideoView
+      player={player}
       style={styles.thumb}
-      source={{ uri }}
-      useNativeControls
-      resizeMode={ResizeMode.COVER}
+      nativeControls
+      contentFit="cover"
     />
   );
 }

@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import {
   ActivityIndicator,
   Image,
@@ -9,7 +9,7 @@ import {
   TextInput,
   View,
 } from 'react-native';
-import { Video, ResizeMode } from 'expo-av';
+import { useVideoPlayer, VideoView } from 'expo-video';
 import { askFieldNotes } from '../lib/api';
 import { API_URL } from '../lib/config';
 import type { AskCitation, AskResponse, FieldNote } from '../types/notes';
@@ -138,7 +138,6 @@ export function AskScreen({ notes }: Props) {
 }
 
 function CitationCard({ citation }: { citation: AskCitation }) {
-  const videoRef = useRef<Video>(null);
   const [showPlayer, setShowPlayer] = useState(false);
   const [playing, setPlaying] = useState(false);
   const [busy, setBusy] = useState(false);
@@ -159,77 +158,13 @@ function CitationCard({ citation }: { citation: AskCitation }) {
       ? citation.frame_image_url
       : `${API_URL}${citation.frame_image_url}`
     : null;
-  const startMs = Math.max(0, Math.floor(citation.t - 0.5) * 1000);
+  const startSec = Math.max(0, citation.t - 0.5);
 
-  useEffect(() => {
-    if (!showPlayer || !mediaUri) return;
-    let cancelled = false;
-
-    (async () => {
-      setBusy(true);
-      setPlayError(null);
-      try {
-        // Mount + first layout before driving AVPlayer.
-        await new Promise((r) => setTimeout(r, 120));
-        if (cancelled || !videoRef.current) return;
-        await videoRef.current.loadAsync(
-          { uri: mediaUri },
-          { shouldPlay: true, positionMillis: startMs },
-          false,
-        );
-        if (!cancelled) setPlaying(true);
-      } catch (err) {
-        if (!cancelled) {
-          setPlayError(err instanceof Error ? err.message : 'Playback failed');
-          setPlaying(false);
-        }
-      } finally {
-        if (!cancelled) setBusy(false);
-      }
-    })();
-
-    return () => {
-      cancelled = true;
-    };
-  }, [showPlayer, mediaUri, startMs]);
-
-  async function onPlayPress() {
+  function onPlayPress() {
     if (!mediaUri || busy) return;
     if (!showPlayer) {
       setShowPlayer(true);
       return;
-    }
-    if (playing) {
-      try {
-        await videoRef.current?.pauseAsync();
-      } catch {
-        // ignore
-      }
-      setPlaying(false);
-      return;
-    }
-    setBusy(true);
-    setPlayError(null);
-    try {
-      const player = videoRef.current;
-      if (!player) throw new Error('Player not ready');
-      const status = await player.getStatusAsync();
-      if (!status.isLoaded) {
-        await player.loadAsync(
-          { uri: mediaUri },
-          { shouldPlay: true, positionMillis: startMs },
-          false,
-        );
-      } else {
-        await player.setPositionAsync(startMs);
-        await player.playAsync();
-      }
-      setPlaying(true);
-    } catch (err) {
-      setPlayError(err instanceof Error ? err.message : 'Playback failed');
-      setPlaying(false);
-    } finally {
-      setBusy(false);
     }
   }
 
@@ -254,24 +189,12 @@ function CitationCard({ citation }: { citation: AskCitation }) {
 
       <View style={styles.snippet}>
         {showPlayer && mediaUri ? (
-          <Video
-            ref={videoRef}
-            style={styles.video}
-            useNativeControls
-            resizeMode={ResizeMode.CONTAIN}
-            isLooping={false}
-            progressUpdateIntervalMillis={250}
-            onPlaybackStatusUpdate={(s) => {
-              if (!s.isLoaded) {
-                if ('error' in s && s.error) {
-                  setPlayError(String(s.error));
-                  setPlaying(false);
-                }
-                return;
-              }
-              setPlaying(s.isPlaying);
-              if (s.didJustFinish) setPlaying(false);
-            }}
+          <CitationVideo
+            uri={mediaUri}
+            startSec={startSec}
+            onPlayingChange={setPlaying}
+            onBusyChange={setBusy}
+            onError={setPlayError}
           />
         ) : frameUri ? (
           <Image source={{ uri: frameUri }} style={styles.frameImage} />
@@ -282,12 +205,22 @@ function CitationCard({ citation }: { citation: AskCitation }) {
         )}
 
         {mediaUri ? (
-          <Pressable style={styles.playBtn} onPress={onPlayPress} disabled={busy}>
+          <Pressable
+            style={styles.playBtn}
+            onPress={() => {
+              if (!showPlayer) onPlayPress();
+            }}
+            disabled={busy || showPlayer}
+          >
             {busy ? (
               <ActivityIndicator color="#8fdb9a" />
             ) : (
               <Text style={styles.playBtnText}>
-                {playing ? 'Pause' : `Play snippet from ${mm}:${ss}`}
+                {showPlayer
+                  ? playing
+                    ? 'Playing… use controls to pause'
+                    : `Snippet ready · ${mm}:${ss}`
+                  : `Play snippet from ${mm}:${ss}`}
               </Text>
             )}
           </Pressable>
@@ -295,6 +228,65 @@ function CitationCard({ citation }: { citation: AskCitation }) {
         {playError ? <Text style={styles.playError}>{playError}</Text> : null}
       </View>
     </View>
+  );
+}
+
+function CitationVideo({
+  uri,
+  startSec,
+  onPlayingChange,
+  onBusyChange,
+  onError,
+}: {
+  uri: string;
+  startSec: number;
+  onPlayingChange: (v: boolean) => void;
+  onBusyChange: (v: boolean) => void;
+  onError: (msg: string | null) => void;
+}) {
+  const player = useVideoPlayer(uri, (p) => {
+    p.loop = false;
+    p.currentTime = startSec;
+  });
+
+  useEffect(() => {
+    onBusyChange(true);
+    onError(null);
+    try {
+      player.currentTime = startSec;
+      player.play();
+      onPlayingChange(true);
+    } catch (err) {
+      onError(err instanceof Error ? err.message : 'Playback failed');
+      onPlayingChange(false);
+    } finally {
+      onBusyChange(false);
+    }
+
+    const playingSub = player.addListener('playingChange', (e) => {
+      onPlayingChange(e.isPlaying);
+    });
+    const statusSub = player.addListener('statusChange', (e) => {
+      if (e.status === 'error') {
+        onError(e.error?.message ?? 'Video failed to load');
+        onPlayingChange(false);
+      }
+    });
+
+    return () => {
+      playingSub.remove();
+      statusSub.remove();
+    };
+  }, [player, startSec, onBusyChange, onError, onPlayingChange]);
+
+  return (
+    <VideoView
+      player={player}
+      style={styles.video}
+      nativeControls
+      contentFit="contain"
+      fullscreenOptions={{ enable: true }}
+    />
   );
 }
 

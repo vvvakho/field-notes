@@ -124,7 +124,7 @@ export function CaptureScreen({ onCaptured }: Props) {
     }
 
     try {
-      setStatus('Syncing + Gemini ingest…');
+      setStatus('Uploading capture…');
       const pending: FieldNote = { ...localNote, status: 'syncing' };
       await upsertNote(pending);
       onCaptured(pending);
@@ -137,11 +137,17 @@ export function CaptureScreen({ onCaptured }: Props) {
       const merged: FieldNote = {
         ...ready,
         local_video_uri: videoUri,
-        status: 'ready',
+        status: ready.status === 'error' ? 'error' : ready.status,
       };
       await upsertNote(merged);
       onCaptured(merged);
-      setStatus('Ready — ask about this capture');
+      if (merged.status === 'ready') {
+        setStatus('Ready — ask about this capture');
+      } else if (merged.status === 'syncing') {
+        setStatus('Uploaded — indexing in background. Sync Library shortly.');
+      } else {
+        setStatus(merged.error_message ?? 'Sync failed');
+      }
     } catch (err) {
       const failed: FieldNote = {
         ...localNote,

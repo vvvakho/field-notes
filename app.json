@@ -46,7 +46,8 @@
         {
           "locationWhenInUsePermission": "Allow Field Notes to tag captures with GPS."
         }
-      ]
+      ],
+      "expo-video"
     ]
   }
 }
