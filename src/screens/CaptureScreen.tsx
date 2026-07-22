@@ -125,7 +125,16 @@ export function CaptureScreen({ onCaptured }: Props) {
 
     try {
       setStatus('Uploading capture…');
-      const pending: FieldNote = { ...localNote, status: 'syncing' };
+      const pending: FieldNote = {
+        ...localNote,
+        status: 'syncing',
+        progress: {
+          stage: 'upload',
+          message: 'Uploading video to server…',
+          percent: 5,
+          updated_at: new Date().toISOString(),
+        },
+      };
       await upsertNote(pending);
       onCaptured(pending);
 
@@ -133,6 +142,18 @@ export function CaptureScreen({ onCaptured }: Props) {
         note_id,
         video_uri: videoUri,
         sensors,
+        onProgress: (n) => {
+          const msg =
+            n.progress?.message ||
+            n.summary ||
+            `Syncing… ${n.progress?.percent ?? ''}%`;
+          const pct = n.progress?.percent;
+          setStatus(pct != null ? `${pct}% · ${msg}` : msg);
+          void upsertNote({ ...n, local_video_uri: videoUri }).then((all) => {
+            const cur = all.find((x) => x.note_id === note_id);
+            if (cur) onCaptured(cur);
+          });
+        },
       });
       const merged: FieldNote = {
         ...ready,
@@ -142,9 +163,12 @@ export function CaptureScreen({ onCaptured }: Props) {
       await upsertNote(merged);
       onCaptured(merged);
       if (merged.status === 'ready') {
-        setStatus('Ready — ask about this capture');
+        setStatus('100% · Ready — ask about this capture');
       } else if (merged.status === 'syncing') {
-        setStatus('Uploaded — indexing in background. Sync Library shortly.');
+        setStatus(
+          merged.progress?.message ??
+            'Uploaded — indexing in background. Sync Library shortly.',
+        );
       } else {
         setStatus(merged.error_message ?? 'Sync failed');
       }

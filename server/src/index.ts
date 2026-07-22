@@ -70,6 +70,12 @@ type FieldNote = {
   };
   status: 'local' | 'syncing' | 'ready' | 'error';
   error_message?: string;
+  progress?: {
+    stage: string;
+    message: string;
+    percent: number;
+    updated_at: string;
+  };
 };
 
 type AskCitation = {
@@ -206,6 +212,10 @@ app.post('/ingest', async (c) => {
   const videoPath = join(VIDEOS, `${note_id}.mp4`);
   const bytes = Buffer.from(await video.arrayBuffer());
   await writeFile(rawPath, bytes);
+  const mb = (bytes.length / (1024 * 1024)).toFixed(2);
+  console.log(
+    `[ingest] ${note_id} UPLOAD received ${mb} MB → queued for indexing`,
+  );
 
   // Return immediately so phone tunnels don't 502 while Gemini runs.
   const pending: FieldNote = {
@@ -214,17 +224,24 @@ app.post('/ingest', async (c) => {
     title: title || 'Field capture',
     demo_label,
     sensors,
-    summary: 'Uploaded — indexing with Gemini…',
+    summary: 'Uploaded — waiting to index…',
     transcript: [],
     events: [],
     index_chunks: [],
     media: { original_bytes: bytes.length },
     video_path: videoPath,
     status: 'syncing',
+    progress: {
+      stage: 'uploaded',
+      message: `Uploaded ${mb} MB — starting sync…`,
+      percent: 10,
+      updated_at: new Date().toISOString(),
+    },
   };
   saveNote(pending);
 
   void (async () => {
+    const t0 = Date.now();
     try {
       const note = await ingestPipeline({
         note_id,
@@ -233,20 +250,36 @@ app.post('/ingest', async (c) => {
         videoPath,
         title,
         demo_label,
+        onProgress: (stage, message, percent) => {
+          patchNoteProgress(note_id, stage, message, percent);
+        },
       });
       const { cost, ...persisted } = note;
+      persisted.progress = {
+        stage: 'done',
+        message: 'Indexed and ready',
+        percent: 100,
+        updated_at: new Date().toISOString(),
+      };
       saveNote(persisted);
+      const secs = ((Date.now() - t0) / 1000).toFixed(1);
       console.log(
-        `[ingest] ${note_id} ready · cost $${(cost?.estimated_usd ?? 0).toFixed(4)}`,
+        `[ingest] ${note_id} DONE in ${secs}s · ready · cost $${(cost?.estimated_usd ?? 0).toFixed(4)} · chunks=${persisted.index_chunks?.length ?? 0}`,
       );
     } catch (err) {
       const message = err instanceof Error ? err.message : 'ingest failed';
-      console.error('ingest error:', message);
+      console.error(`[ingest] ${note_id} FAILED after ${((Date.now() - t0) / 1000).toFixed(1)}s:`, message);
       saveNote({
         ...pending,
         status: 'error',
         error_message: message,
         summary: `Ingest failed: ${message}`,
+        progress: {
+          stage: 'error',
+          message: `Failed: ${message}`,
+          percent: 100,
+          updated_at: new Date().toISOString(),
+        },
       });
     } finally {
       if (existsSync(rawPath)) {
@@ -370,8 +403,14 @@ async function ingestPipeline(input: {
   videoPath: string;
   title?: string;
   demo_label?: string;
+  onProgress?: (stage: string, message: string, percent: number) => void;
 }): Promise<FieldNote & { cost?: CostReport }> {
-  console.log(`[ingest] ${input.note_id} compressing…`);
+  const progress = (stage: string, message: string, percent: number) => {
+    console.log(`[ingest] ${input.note_id} [${percent}%] ${stage}: ${message}`);
+    input.onProgress?.(stage, message, percent);
+  };
+
+  progress('compress', 'Compressing video…', 25);
   let compressed = await compressVideo(input.rawPath, input.videoPath);
   // Never keep a "compress" that made the file larger
   if (compressed.output_bytes > compressed.input_bytes) {
@@ -383,11 +422,14 @@ async function ingestPipeline(input: {
       output_bytes: compressed.input_bytes,
     };
   }
-  console.log(
-    `[ingest] ${input.note_id} ${compressed.input_bytes} → ${compressed.output_bytes} bytes`,
+  progress(
+    'compress',
+    `Compressed ${(compressed.input_bytes / (1024 * 1024)).toFixed(2)} → ${(compressed.output_bytes / (1024 * 1024)).toFixed(2)} MB`,
+    40,
   );
 
   if (compressed.output_bytes > MAX_INLINE_BYTES) {
+    progress('compress', 'Re-encoding harder for Gemini size limit…', 45);
     const harder = join(VIDEOS, `${input.note_id}.hard.mp4`);
     const second = await compressVideo(input.videoPath, harder, {
       crf: '34',
@@ -406,13 +448,14 @@ async function ingestPipeline(input: {
   }
 
   const frameDir = join(FRAMES, input.note_id);
-  console.log(`[ingest] ${input.note_id} extracting frames every ${FRAME_EVERY_SEC}s…`);
+  progress('frames', `Extracting sparse frames (~every ${FRAME_EVERY_SEC}s)…`, 55);
   const frames = await extractSparseFrames({
     videoPath: input.videoPath,
     outDir: frameDir,
     everySeconds: FRAME_EVERY_SEC,
     maxFrames: 24,
   });
+  progress('frames', `Extracted ${frames.length} frames`, 65);
 
   const extractPrompt = `Analyze this field capture for industrial/construction/plant operators.
 Build a searchable knowledge index from:
@@ -434,7 +477,7 @@ Sensor metadata (context only; do not invent GPS):
 ${JSON.stringify(input.sensors, null, 2)}
 Known frame timestamps extracted: ${frames.map((f) => f.t).join(', ')}`;
 
-  console.log(`[ingest] ${input.note_id} Gemini indexing…`);
+  progress('gemini', 'Sending to Gemini for transcript + visual index…', 75);
   const response = await generateWithRetry({
     model: MODEL,
     contents: [
@@ -454,6 +497,7 @@ Known frame timestamps extracted: ${frames.map((f) => f.t).join(', ')}`;
     config: { responseMimeType: 'application/json' },
   });
 
+  progress('index', 'Building searchable chunks…', 90);
   const cost = recordCost('ingest', response.usageMetadata, input.note_id);
   const raw = response.text ?? '{}';
   let summary = 'Field capture';
@@ -516,6 +560,11 @@ Known frame timestamps extracted: ${frames.map((f) => f.t).join(', ')}`;
     status: 'ready',
   };
   draft.index_chunks = buildIndexChunks(draft);
+  progress(
+    'done',
+    `Ready · ${transcript.length} transcript cues · ${events.length} events · ${draft.index_chunks.length} chunks`,
+    100,
+  );
 
   return { ...draft, cost };
 }
@@ -654,6 +703,25 @@ function enrichCitations(
       frame_image_url: hasFrames ? `/frames/${c.note_id}/${Math.floor(t)}` : undefined,
     };
   });
+}
+
+function patchNoteProgress(
+  note_id: string,
+  stage: string,
+  message: string,
+  percent: number,
+) {
+  const note = listNotes().find((n) => n.note_id === note_id);
+  if (!note) return;
+  note.status = note.status === 'ready' || note.status === 'error' ? note.status : 'syncing';
+  note.summary = message;
+  note.progress = {
+    stage,
+    message,
+    percent,
+    updated_at: new Date().toISOString(),
+  };
+  saveNote(note);
 }
 
 function listNotes(): FieldNote[] {

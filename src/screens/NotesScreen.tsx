@@ -137,6 +137,12 @@ export function NotesScreen({ notes, onChange, onReplace }: Props) {
               {item.summary}
             </Text>
 
+            {item.status === 'syncing' && item.progress ? (
+              <Text style={styles.progress}>
+                {item.progress.percent}% · {item.progress.message}
+              </Text>
+            ) : null}
+
             <VideoThumb note={item} />
 
             <Text style={styles.meta}>
@@ -256,6 +262,12 @@ const styles = StyleSheet.create({
   },
   cardTitle: { color: '#f3efe6', fontSize: 17, fontWeight: '700', marginTop: 2 },
   summary: { color: '#d9d3c7', fontSize: 14, lineHeight: 20 },
+  progress: {
+    color: '#8fdb9a',
+    fontSize: 12,
+    fontWeight: '700',
+    marginTop: 2,
+  },
   thumb: {
     width: '100%',
     height: 160,

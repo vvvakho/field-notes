@@ -57,6 +57,12 @@ export type FieldNote = {
   status: 'local' | 'syncing' | 'ready' | 'error';
   error_message?: string;
   local_video_uri?: string;
+  progress?: {
+    stage: string;
+    message: string;
+    percent: number;
+    updated_at: string;
+  };
 };
 
 export type AskCitation = {
