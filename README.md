@@ -1,27 +1,26 @@
 # Field Notes
 
-**Granola for the physical world.**  
 Capture on site with your phone. Ask later — get answers with cited video, transcript, and frames.
 
 ---
 
 ## The problem
 
-Operators in construction, manufacturing, energy, facilities, and trades spend their day walking sites, inspecting equipment, taking measurements, and noticing things that don’t fit neatly into a form.
+AI adoption is racing ahead in software and knowledge work — chat, docs, tickets, meetings. Most of that assumes the world already lives as text.
 
-Voice notes alone aren’t enough. You need **what it looked like** — the panel label, the rusted breaker, the oil filter, the hatch into the basement — plus **where and when** you were when you said it.
+**Physical businesses don’t.** Construction, manufacturing, energy, facilities, and trades run on sites, equipment, measurements, and things you have to *see*. Operators walk jobs with a phone: they inspect panels, open hatches, call out parts, notice what’s wrong. The valuable record is messy video + voice + context — not a clean CRM field.
 
-Today that footage dies on the camera roll. Looking something up means scrubbing through hours of video. Knowledge stays stuck in one person’s head (or one phone).
+Voice-only tools miss the visual evidence. Camera-roll footage isn’t searchable. So the “AI layer” never reaches the people who do the work, and field knowledge stays trapped in one head or one phone.
 
 ## What Field Notes is
 
-Field Notes is a **personal field knowledge bank** that can grow into crew / company knowledge.
+Field Notes is how AI shows up for operators in the physical world: a **field knowledge bank** built from capture, not from forms.
 
-1. **Capture** — open the app and record. Video + mic + phone sensors (location, time, device). Narrate or stay silent. Offline-first: saves on device, syncs when the network is back.
-2. **Index** — the backend stores video separately (object storage shape; local disk for this MVP) and builds **rich metadata**: transcript, sparse visual events, searchable chunks.
+1. **Capture** — open the app and record. Video + mic + phone sensors (location, time, device). Narrate or stay silent. Offline-first: saves on device, syncs when the network is back. The operator UX is just *capture, capture, capture*.
+2. **Index** — video goes to media storage; the product builds **rich metadata** from it: transcript, sparse visual events, searchable chunks (not a raw dump of every frame).
 3. **Ask** — type a normal question. Get a short operational answer with **citations**: day, job title, transcript quote, frame still, and a playable clip from that timestamp.
 
-Built for people who need **visual + voice** field memory — not another meeting-notes app.
+Personal bank first; same substrate can become crew / company knowledge later.
 
 ### Demo UX (what you show on stage)
 
