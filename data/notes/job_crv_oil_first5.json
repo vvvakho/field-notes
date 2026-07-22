@@ -1,0 +1,1211 @@
+{
+  "note_id": "job_crv_oil_first5",
+  "created_at": "2026-07-22T15:43:56.578Z",
+  "title": "Honda CR-V oil change (first 5 min)",
+  "demo_label": "Example from the job",
+  "sensors": {
+    "captured_at": "2026-07-22T17:00:00.000Z",
+    "timezone_offset_minutes": -240,
+    "geo": {
+      "latitude": 33.749,
+      "longitude": -84.388,
+      "altitude": null,
+      "accuracy": 12,
+      "heading": null,
+      "speed": 0
+    },
+    "device": {
+      "brand": "Apple",
+      "model_name": "Demo",
+      "os_name": "iOS",
+      "os_version": "18"
+    }
+  },
+  "summary": "The operator is performing an oil change on a Honda CRV (2000s model). They identify several previous maintenance issues including incorrect screws, missing clips, a misrouted hose, and an aftermarket compressor that was likely replaced unnecessarily. The draining oil is black and chunky, indicating poor condition. The operator uses various tools including a gear wrench ratchet and an OTC drain plug remover. They also highlight features of Toolcraft ratchet organizers. A minor grease leak from seals is noted but dismissed as normal manufacturer's grease.",
+  "transcript": [
+    {
+      "t": 0,
+      "text": "2000 something, Honda CRV."
+    },
+    {
+      "t": 2.5,
+      "text": "Doing a little oil change on her."
+    },
+    {
+      "t": 8,
+      "text": "And uh that's the wrong screw there."
+    },
+    {
+      "t": 15.1,
+      "text": "And got a missing screw."
+    },
+    {
+      "t": 24.5,
+      "text": "You missing clips for you, Bud."
+    },
+    {
+      "t": 28,
+      "text": "Do not think I have any spare twisty clips at the moment."
+    },
+    {
+      "t": 35,
+      "text": "I can definitely get some screws in there, but we're off to a poor start here and Bud."
+    },
+    {
+      "t": 40,
+      "text": "Oh nice."
+    },
+    {
+      "t": 41.5,
+      "text": "Got a aftermarket compressor."
+    },
+    {
+      "t": 45.4,
+      "text": "That was likely replaced because of the compressor shaft end seal which is completely covered under warranty."
+    },
+    {
+      "t": 53.6,
+      "text": "Oh boy, hold on."
+    },
+    {
+      "t": 58.7,
+      "text": "Let's speak a closer ganer at this. Yeah."
+    },
+    {
+      "t": 59.9,
+      "text": "That's misrouted."
+    },
+    {
+      "t": 104.7,
+      "text": "This hose was replaced as well."
+    },
+    {
+      "t": 108.6,
+      "text": "Misrouted and I highly doubt this hose was leaking and I highly doubt this compressor needed to be replaced."
+    },
+    {
+      "t": 118,
+      "text": "It's probably just a leak from the end seal which uh whoa."
+    },
+    {
+      "t": 120.7,
+      "text": "There's a lot of flex going on there, bud."
+    },
+    {
+      "t": 128.5,
+      "text": "What is this gap? What it what is this clutch?"
+    },
+    {
+      "t": 139.6,
+      "text": "Oh, that's rough."
+    },
+    {
+      "t": 140.2,
+      "text": "We're going to have to see how that engages."
+    },
+    {
+      "t": 143.7,
+      "text": "Um new aftermarket drain plug."
+    },
+    {
+      "t": 148,
+      "text": "Oh boy. All right."
+    },
+    {
+      "t": 150.3,
+      "text": "Where are we? Grab the gear wrench flex head ratchet."
+    },
+    {
+      "t": 152.9,
+      "text": "Absolutely beautiful. Matco, $180, some odd dollars."
+    },
+    {
+      "t": 159.2,
+      "text": "Gear wrench about $60 to $70. So uh we're going to use the gear wrench."
+    },
+    {
+      "t": 169.6,
+      "text": "Y'all have seen my SJW ratchet organizers, and I just got a few more organizers sent to me from uh Toolcraft organizers."
+    },
+    {
+      "t": 211.7,
+      "text": "So this guy is actually based in Colorado, same place that I am."
+    },
+    {
+      "t": 218.4,
+      "text": "Got a lovely magneto little badge right there. But anyway, you can see his quarter inch ratchet holders."
+    },
+    {
+      "t": 226.7,
+      "text": "Have a bigger base. The magnets are inlaid."
+    },
+    {
+      "t": 228.6,
+      "text": "The click together like little Lego, all right?"
+    },
+    {
+      "t": 234.3,
+      "text": "So not only does it stick to your box, but if you set a bunch next to each other, um they all click together."
+    },
+    {
+      "t": 239.5,
+      "text": "So it's quite satisfying."
+    },
+    {
+      "t": 245,
+      "text": "And the most satisfying part about these is you can just drop the ratchet and she slips right in there, bud."
+    },
+    {
+      "t": 249.7,
+      "text": "So that's absolutely beautiful."
+    },
+    {
+      "t": 254.9,
+      "text": "going to be making some content about the Toolcraft organizers."
+    },
+    {
+      "t": 259.9,
+      "text": "And I got quite a few things to show y'all."
+    },
+    {
+      "t": 269.4,
+      "text": "We're just going to take this guy out."
+    },
+    {
+      "t": 277.9,
+      "text": "Oh yeah."
+    },
+    {
+      "t": 305.2,
+      "text": "And we're going to get you off there. Oh yeah."
+    },
+    {
+      "t": 313.3,
+      "text": "Crack you loose."
+    },
+    {
+      "t": 318.5,
+      "text": "And oh boy."
+    },
+    {
+      "t": 320.1,
+      "text": "Oh boy."
+    },
+    {
+      "t": 323.4,
+      "text": "That's yep, that's that chromium swirl chunky milk."
+    },
+    {
+      "t": 326.6,
+      "text": "I'm seeing a trend with this."
+    },
+    {
+      "t": 329.8,
+      "text": "That looks I mean, it just looks awful."
+    },
+    {
+      "t": 332.2,
+      "text": "Not going to lie."
+    },
+    {
+      "t": 340.5,
+      "text": "A little magneto on a stick. This is made by OTC. OTC drain plug Pro."
+    },
+    {
+      "t": 345.9,
+      "text": "And the link is of course in my bio."
+    },
+    {
+      "t": 350.2,
+      "text": "And uh we're making a mess. It's not really helping in this situation."
+    },
+    {
+      "t": 356.5,
+      "text": "But you know what? We're still going to use it. All right?"
+    },
+    {
+      "t": 358.3,
+      "text": "Ding."
+    },
+    {
+      "t": 361.3,
+      "text": "Little raggy poo."
+    },
+    {
+      "t": 364.5,
+      "text": "Fix my mistakes."
+    },
+    {
+      "t": 366.1,
+      "text": "Drop her down."
+    },
+    {
+      "t": 372.9,
+      "text": "Got all the bolts in the compressor. I'm worried."
+    },
+    {
+      "t": 412.3,
+      "text": "I'm worried about it based off of what I'm seeing with the uh with the hose."
+    },
+    {
+      "t": 418.1,
+      "text": "Oh, that's nice."
+    },
+    {
+      "t": 421.4,
+      "text": "The uh bracket."
+    },
+    {
+      "t": 423.5,
+      "text": "Missing the 10 Millie. That's that's lovely."
+    },
+    {
+      "t": 431.1,
+      "text": "Good old path of destruction followed by a replacement of a part that could have been warranted."
+    },
+    {
+      "t": 440,
+      "text": "A little bit of grease coming off there. That's nothing to be worried about a lot of times from the manufacturer."
+    },
+    {
+      "t": 451.9,
+      "text": "There's grease on the seals and they kind of seep out once they're breaking in and so they seep out a little bit, but you can see just a tiny amount and it's it's sticky. It's not oil residue, it's more grease, so we ain't worried about that, bud."
+    }
+  ],
+  "events": [
+    {
+      "t": 0,
+      "label": "Vehicle Identification",
+      "detail": "Honda CRV (year ~2000s) identified on a lift in a workshop.",
+      "frame_hint": "0",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0000.jpg"
+    },
+    {
+      "t": 2.5,
+      "label": "Maintenance Task",
+      "detail": "Oil change procedure initiated.",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0000.jpg"
+    },
+    {
+      "t": 8,
+      "label": "Part Anomaly",
+      "detail": "Incorrect screw identified on the underside of the vehicle.",
+      "frame_hint": "10",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0010.jpg"
+    },
+    {
+      "t": 15.1,
+      "label": "Part Anomaly",
+      "detail": "Missing screw identified on the underside of the vehicle.",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0020.jpg"
+    },
+    {
+      "t": 20,
+      "label": "Visual snapshot @ 20s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0020.jpg"
+    },
+    {
+      "t": 24.5,
+      "label": "Part Anomaly",
+      "detail": "Missing clips (fasteners) found on the vehicle's underside protection panel.",
+      "frame_hint": "20",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0020.jpg"
+    },
+    {
+      "t": 30,
+      "label": "Visual snapshot @ 30s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0030.jpg"
+    },
+    {
+      "t": 35,
+      "label": "Work Progress Note",
+      "detail": "Technician comments on a 'poor start' to the oil change due to missing parts.",
+      "frame_hint": "40",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0030.jpg"
+    },
+    {
+      "t": 41.5,
+      "label": "Component Observation",
+      "detail": "Aftermarket compressor observed. Technician suspects original compressor replaced unnecessarily.",
+      "frame_hint": "40",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0040.jpg"
+    },
+    {
+      "t": 50,
+      "label": "Visual snapshot @ 50s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0050.jpg"
+    },
+    {
+      "t": 59.9,
+      "label": "Part Anomaly",
+      "detail": "Misrouted hose observed near the compressor. This hose was also replaced, which the technician doubts was necessary.",
+      "frame_hint": "60",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0060.jpg"
+    },
+    {
+      "t": 70,
+      "label": "Visual snapshot @ 70s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0070.jpg"
+    },
+    {
+      "t": 80,
+      "label": "Visual snapshot @ 80s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0080.jpg"
+    },
+    {
+      "t": 90,
+      "label": "Visual snapshot @ 90s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0090.jpg"
+    },
+    {
+      "t": 100,
+      "label": "Visual snapshot @ 100s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0100.jpg"
+    },
+    {
+      "t": 110,
+      "label": "Visual snapshot @ 110s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0110.jpg"
+    },
+    {
+      "t": 120.7,
+      "label": "Structural Anomaly",
+      "detail": "Excessive flex and a large gap observed near the clutch/compressor area, indicating potential improper installation.",
+      "frame_hint": "120",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0120.jpg"
+    },
+    {
+      "t": 130,
+      "label": "Visual snapshot @ 130s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0130.jpg"
+    },
+    {
+      "t": 140,
+      "label": "Visual snapshot @ 140s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0140.jpg"
+    },
+    {
+      "t": 143.7,
+      "label": "Component Observation",
+      "detail": "New aftermarket drain plug found on the oil pan.",
+      "frame_hint": "140",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0140.jpg"
+    },
+    {
+      "t": 150.3,
+      "label": "Tool Selection",
+      "detail": "Technician retrieves a gear wrench flex-head ratchet from the toolbox.",
+      "frame_hint": "150",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0150.jpg"
+    },
+    {
+      "t": 160,
+      "label": "Visual snapshot @ 160s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0160.jpg"
+    },
+    {
+      "t": 169.6,
+      "label": "Tool Demonstration",
+      "detail": "Toolcraft ratchet organizers are showcased, highlighting magnetic and interlocking features for organization.",
+      "frame_hint": "180",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0170.jpg"
+    },
+    {
+      "t": 180,
+      "label": "Visual snapshot @ 180s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0180.jpg"
+    },
+    {
+      "t": 190,
+      "label": "Visual snapshot @ 190s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0190.jpg"
+    },
+    {
+      "t": 200,
+      "label": "Visual snapshot @ 200s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0200.jpg"
+    },
+    {
+      "t": 210,
+      "label": "Visual snapshot @ 210s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0210.jpg"
+    },
+    {
+      "t": 220,
+      "label": "Visual snapshot @ 220s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0220.jpg"
+    },
+    {
+      "t": 230,
+      "label": "Visual snapshot @ 230s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_first5/t0230.jpg"
+    },
+    {
+      "t": 269.4,
+      "label": "Maintenance Procedure",
+      "detail": "Technician begins removing the oil drain plug.",
+      "frame_hint": "270"
+    },
+    {
+      "t": 305.2,
+      "label": "Fluid Condition",
+      "detail": "Engine oil draining, described as 'chromium swirl chunky milk,' indicating very poor oil quality.",
+      "frame_hint": "310"
+    },
+    {
+      "t": 340.5,
+      "label": "Tool Use",
+      "detail": "OTC Drain Plug Pro (magnetic tool) used to remove the oil filter without making a mess, though some oil does spill.",
+      "frame_hint": "340"
+    },
+    {
+      "t": 423.5,
+      "label": "Part Anomaly",
+      "detail": "Missing a 10mm bolt from a bracket, adding to the list of previous maintenance deficiencies.",
+      "frame_hint": "420"
+    },
+    {
+      "t": 440,
+      "label": "Component Condition",
+      "detail": "Grease observed seeping from seals, identified as normal manufacturer's grease during break-in, not an oil leak.",
+      "frame_hint": "450"
+    }
+  ],
+  "video_path": "/Users/vvvakho/Documents/Code/field-notes/data/videos/job_crv_oil_first5.mp4",
+  "media": {
+    "original_bytes": 16650435,
+    "compressed_bytes": 10525616,
+    "frame_count": 24
+  },
+  "status": "ready",
+  "index_chunks": [
+    {
+      "chunk_id": "job_crv_oil_first5:summary",
+      "note_id": "job_crv_oil_first5",
+      "t": 0,
+      "kind": "summary",
+      "text": "The operator is performing an oil change on a Honda CRV (2000s model). They identify several previous maintenance issues including incorrect screws, missing clips, a misrouted hose, and an aftermarket compressor that was likely replaced unnecessarily. The draining oil is black and chunky, indicating poor condition. The operator uses various tools including a gear wrench ratchet and an OTC drain plug remover. They also highlight features of Toolcraft ratchet organizers. A minor grease leak from seals is noted but dismissed as normal manufacturer's grease."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:0",
+      "note_id": "job_crv_oil_first5",
+      "t": 0,
+      "kind": "transcript",
+      "text": "2000 something, Honda CRV."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:2.5",
+      "note_id": "job_crv_oil_first5",
+      "t": 2.5,
+      "kind": "transcript",
+      "text": "Doing a little oil change on her."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:8",
+      "note_id": "job_crv_oil_first5",
+      "t": 8,
+      "kind": "transcript",
+      "text": "And uh that's the wrong screw there."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:15.1",
+      "note_id": "job_crv_oil_first5",
+      "t": 15.1,
+      "kind": "transcript",
+      "text": "And got a missing screw."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:24.5",
+      "note_id": "job_crv_oil_first5",
+      "t": 24.5,
+      "kind": "transcript",
+      "text": "You missing clips for you, Bud."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:28",
+      "note_id": "job_crv_oil_first5",
+      "t": 28,
+      "kind": "transcript",
+      "text": "Do not think I have any spare twisty clips at the moment."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:35",
+      "note_id": "job_crv_oil_first5",
+      "t": 35,
+      "kind": "transcript",
+      "text": "I can definitely get some screws in there, but we're off to a poor start here and Bud."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:40",
+      "note_id": "job_crv_oil_first5",
+      "t": 40,
+      "kind": "transcript",
+      "text": "Oh nice."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:41.5",
+      "note_id": "job_crv_oil_first5",
+      "t": 41.5,
+      "kind": "transcript",
+      "text": "Got a aftermarket compressor."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:45.4",
+      "note_id": "job_crv_oil_first5",
+      "t": 45.4,
+      "kind": "transcript",
+      "text": "That was likely replaced because of the compressor shaft end seal which is completely covered under warranty."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:53.6",
+      "note_id": "job_crv_oil_first5",
+      "t": 53.6,
+      "kind": "transcript",
+      "text": "Oh boy, hold on."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:58.7",
+      "note_id": "job_crv_oil_first5",
+      "t": 58.7,
+      "kind": "transcript",
+      "text": "Let's speak a closer ganer at this. Yeah."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:59.9",
+      "note_id": "job_crv_oil_first5",
+      "t": 59.9,
+      "kind": "transcript",
+      "text": "That's misrouted."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:104.7",
+      "note_id": "job_crv_oil_first5",
+      "t": 104.7,
+      "kind": "transcript",
+      "text": "This hose was replaced as well."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:108.6",
+      "note_id": "job_crv_oil_first5",
+      "t": 108.6,
+      "kind": "transcript",
+      "text": "Misrouted and I highly doubt this hose was leaking and I highly doubt this compressor needed to be replaced."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:118",
+      "note_id": "job_crv_oil_first5",
+      "t": 118,
+      "kind": "transcript",
+      "text": "It's probably just a leak from the end seal which uh whoa."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:120.7",
+      "note_id": "job_crv_oil_first5",
+      "t": 120.7,
+      "kind": "transcript",
+      "text": "There's a lot of flex going on there, bud."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:128.5",
+      "note_id": "job_crv_oil_first5",
+      "t": 128.5,
+      "kind": "transcript",
+      "text": "What is this gap? What it what is this clutch?"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:139.6",
+      "note_id": "job_crv_oil_first5",
+      "t": 139.6,
+      "kind": "transcript",
+      "text": "Oh, that's rough."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:140.2",
+      "note_id": "job_crv_oil_first5",
+      "t": 140.2,
+      "kind": "transcript",
+      "text": "We're going to have to see how that engages."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:143.7",
+      "note_id": "job_crv_oil_first5",
+      "t": 143.7,
+      "kind": "transcript",
+      "text": "Um new aftermarket drain plug."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:148",
+      "note_id": "job_crv_oil_first5",
+      "t": 148,
+      "kind": "transcript",
+      "text": "Oh boy. All right."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:150.3",
+      "note_id": "job_crv_oil_first5",
+      "t": 150.3,
+      "kind": "transcript",
+      "text": "Where are we? Grab the gear wrench flex head ratchet."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:152.9",
+      "note_id": "job_crv_oil_first5",
+      "t": 152.9,
+      "kind": "transcript",
+      "text": "Absolutely beautiful. Matco, $180, some odd dollars."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:159.2",
+      "note_id": "job_crv_oil_first5",
+      "t": 159.2,
+      "kind": "transcript",
+      "text": "Gear wrench about $60 to $70. So uh we're going to use the gear wrench."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:169.6",
+      "note_id": "job_crv_oil_first5",
+      "t": 169.6,
+      "kind": "transcript",
+      "text": "Y'all have seen my SJW ratchet organizers, and I just got a few more organizers sent to me from uh Toolcraft organizers."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:211.7",
+      "note_id": "job_crv_oil_first5",
+      "t": 211.7,
+      "kind": "transcript",
+      "text": "So this guy is actually based in Colorado, same place that I am."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:218.4",
+      "note_id": "job_crv_oil_first5",
+      "t": 218.4,
+      "kind": "transcript",
+      "text": "Got a lovely magneto little badge right there. But anyway, you can see his quarter inch ratchet holders."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:226.7",
+      "note_id": "job_crv_oil_first5",
+      "t": 226.7,
+      "kind": "transcript",
+      "text": "Have a bigger base. The magnets are inlaid."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:228.6",
+      "note_id": "job_crv_oil_first5",
+      "t": 228.6,
+      "kind": "transcript",
+      "text": "The click together like little Lego, all right?"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:234.3",
+      "note_id": "job_crv_oil_first5",
+      "t": 234.3,
+      "kind": "transcript",
+      "text": "So not only does it stick to your box, but if you set a bunch next to each other, um they all click together."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:239.5",
+      "note_id": "job_crv_oil_first5",
+      "t": 239.5,
+      "kind": "transcript",
+      "text": "So it's quite satisfying."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:245",
+      "note_id": "job_crv_oil_first5",
+      "t": 245,
+      "kind": "transcript",
+      "text": "And the most satisfying part about these is you can just drop the ratchet and she slips right in there, bud."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:249.7",
+      "note_id": "job_crv_oil_first5",
+      "t": 249.7,
+      "kind": "transcript",
+      "text": "So that's absolutely beautiful."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:254.9",
+      "note_id": "job_crv_oil_first5",
+      "t": 254.9,
+      "kind": "transcript",
+      "text": "going to be making some content about the Toolcraft organizers."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:259.9",
+      "note_id": "job_crv_oil_first5",
+      "t": 259.9,
+      "kind": "transcript",
+      "text": "And I got quite a few things to show y'all."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:269.4",
+      "note_id": "job_crv_oil_first5",
+      "t": 269.4,
+      "kind": "transcript",
+      "text": "We're just going to take this guy out."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:277.9",
+      "note_id": "job_crv_oil_first5",
+      "t": 277.9,
+      "kind": "transcript",
+      "text": "Oh yeah."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:305.2",
+      "note_id": "job_crv_oil_first5",
+      "t": 305.2,
+      "kind": "transcript",
+      "text": "And we're going to get you off there. Oh yeah."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:313.3",
+      "note_id": "job_crv_oil_first5",
+      "t": 313.3,
+      "kind": "transcript",
+      "text": "Crack you loose."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:318.5",
+      "note_id": "job_crv_oil_first5",
+      "t": 318.5,
+      "kind": "transcript",
+      "text": "And oh boy."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:320.1",
+      "note_id": "job_crv_oil_first5",
+      "t": 320.1,
+      "kind": "transcript",
+      "text": "Oh boy."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:323.4",
+      "note_id": "job_crv_oil_first5",
+      "t": 323.4,
+      "kind": "transcript",
+      "text": "That's yep, that's that chromium swirl chunky milk."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:326.6",
+      "note_id": "job_crv_oil_first5",
+      "t": 326.6,
+      "kind": "transcript",
+      "text": "I'm seeing a trend with this."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:329.8",
+      "note_id": "job_crv_oil_first5",
+      "t": 329.8,
+      "kind": "transcript",
+      "text": "That looks I mean, it just looks awful."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:332.2",
+      "note_id": "job_crv_oil_first5",
+      "t": 332.2,
+      "kind": "transcript",
+      "text": "Not going to lie."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:340.5",
+      "note_id": "job_crv_oil_first5",
+      "t": 340.5,
+      "kind": "transcript",
+      "text": "A little magneto on a stick. This is made by OTC. OTC drain plug Pro."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:345.9",
+      "note_id": "job_crv_oil_first5",
+      "t": 345.9,
+      "kind": "transcript",
+      "text": "And the link is of course in my bio."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:350.2",
+      "note_id": "job_crv_oil_first5",
+      "t": 350.2,
+      "kind": "transcript",
+      "text": "And uh we're making a mess. It's not really helping in this situation."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:356.5",
+      "note_id": "job_crv_oil_first5",
+      "t": 356.5,
+      "kind": "transcript",
+      "text": "But you know what? We're still going to use it. All right?"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:358.3",
+      "note_id": "job_crv_oil_first5",
+      "t": 358.3,
+      "kind": "transcript",
+      "text": "Ding."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:361.3",
+      "note_id": "job_crv_oil_first5",
+      "t": 361.3,
+      "kind": "transcript",
+      "text": "Little raggy poo."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:364.5",
+      "note_id": "job_crv_oil_first5",
+      "t": 364.5,
+      "kind": "transcript",
+      "text": "Fix my mistakes."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:366.1",
+      "note_id": "job_crv_oil_first5",
+      "t": 366.1,
+      "kind": "transcript",
+      "text": "Drop her down."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:372.9",
+      "note_id": "job_crv_oil_first5",
+      "t": 372.9,
+      "kind": "transcript",
+      "text": "Got all the bolts in the compressor. I'm worried."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:412.3",
+      "note_id": "job_crv_oil_first5",
+      "t": 412.3,
+      "kind": "transcript",
+      "text": "I'm worried about it based off of what I'm seeing with the uh with the hose."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:418.1",
+      "note_id": "job_crv_oil_first5",
+      "t": 418.1,
+      "kind": "transcript",
+      "text": "Oh, that's nice."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:421.4",
+      "note_id": "job_crv_oil_first5",
+      "t": 421.4,
+      "kind": "transcript",
+      "text": "The uh bracket."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:423.5",
+      "note_id": "job_crv_oil_first5",
+      "t": 423.5,
+      "kind": "transcript",
+      "text": "Missing the 10 Millie. That's that's lovely."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:431.1",
+      "note_id": "job_crv_oil_first5",
+      "t": 431.1,
+      "kind": "transcript",
+      "text": "Good old path of destruction followed by a replacement of a part that could have been warranted."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:440",
+      "note_id": "job_crv_oil_first5",
+      "t": 440,
+      "kind": "transcript",
+      "text": "A little bit of grease coming off there. That's nothing to be worried about a lot of times from the manufacturer."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:tr:451.9",
+      "note_id": "job_crv_oil_first5",
+      "t": 451.9,
+      "kind": "transcript",
+      "text": "There's grease on the seals and they kind of seep out once they're breaking in and so they seep out a little bit, but you can see just a tiny amount and it's it's sticky. It's not oil residue, it's more grease, so we ain't worried about that, bud."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:0:Vehicle Identification",
+      "note_id": "job_crv_oil_first5",
+      "t": 0,
+      "kind": "frame",
+      "text": "Vehicle Identification — Honda CRV (year ~2000s) identified on a lift in a workshop. — 0",
+      "frame_hint": "0"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:2.5:Maintenance Task",
+      "note_id": "job_crv_oil_first5",
+      "t": 2.5,
+      "kind": "frame",
+      "text": "Maintenance Task — Oil change procedure initiated."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:8:Part Anomaly",
+      "note_id": "job_crv_oil_first5",
+      "t": 8,
+      "kind": "frame",
+      "text": "Part Anomaly — Incorrect screw identified on the underside of the vehicle. — 10",
+      "frame_hint": "10"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:15.1:Part Anomaly",
+      "note_id": "job_crv_oil_first5",
+      "t": 15.1,
+      "kind": "frame",
+      "text": "Part Anomaly — Missing screw identified on the underside of the vehicle."
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:20:Visual snapshot @ 20s",
+      "note_id": "job_crv_oil_first5",
+      "t": 20,
+      "kind": "frame",
+      "text": "Visual snapshot @ 20s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:24.5:Part Anomaly",
+      "note_id": "job_crv_oil_first5",
+      "t": 24.5,
+      "kind": "frame",
+      "text": "Part Anomaly — Missing clips (fasteners) found on the vehicle's underside protection panel. — 20",
+      "frame_hint": "20"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:30:Visual snapshot @ 30s",
+      "note_id": "job_crv_oil_first5",
+      "t": 30,
+      "kind": "frame",
+      "text": "Visual snapshot @ 30s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:35:Work Progress Note",
+      "note_id": "job_crv_oil_first5",
+      "t": 35,
+      "kind": "frame",
+      "text": "Work Progress Note — Technician comments on a 'poor start' to the oil change due to missing parts. — 40",
+      "frame_hint": "40"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:41.5:Component Observation",
+      "note_id": "job_crv_oil_first5",
+      "t": 41.5,
+      "kind": "frame",
+      "text": "Component Observation — Aftermarket compressor observed. Technician suspects original compressor replaced unnecessarily. — 40",
+      "frame_hint": "40"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:50:Visual snapshot @ 50s",
+      "note_id": "job_crv_oil_first5",
+      "t": 50,
+      "kind": "frame",
+      "text": "Visual snapshot @ 50s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:59.9:Part Anomaly",
+      "note_id": "job_crv_oil_first5",
+      "t": 59.9,
+      "kind": "frame",
+      "text": "Part Anomaly — Misrouted hose observed near the compressor. This hose was also replaced, which the technician doubts was necessary. — 60",
+      "frame_hint": "60"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:70:Visual snapshot @ 70s",
+      "note_id": "job_crv_oil_first5",
+      "t": 70,
+      "kind": "frame",
+      "text": "Visual snapshot @ 70s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:80:Visual snapshot @ 80s",
+      "note_id": "job_crv_oil_first5",
+      "t": 80,
+      "kind": "frame",
+      "text": "Visual snapshot @ 80s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:90:Visual snapshot @ 90s",
+      "note_id": "job_crv_oil_first5",
+      "t": 90,
+      "kind": "frame",
+      "text": "Visual snapshot @ 90s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:100:Visual snapshot @ 100s",
+      "note_id": "job_crv_oil_first5",
+      "t": 100,
+      "kind": "frame",
+      "text": "Visual snapshot @ 100s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:110:Visual snapshot @ 110s",
+      "note_id": "job_crv_oil_first5",
+      "t": 110,
+      "kind": "frame",
+      "text": "Visual snapshot @ 110s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:120.7:Structural Anomaly",
+      "note_id": "job_crv_oil_first5",
+      "t": 120.7,
+      "kind": "frame",
+      "text": "Structural Anomaly — Excessive flex and a large gap observed near the clutch/compressor area, indicating potential improper installation. — 120",
+      "frame_hint": "120"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:130:Visual snapshot @ 130s",
+      "note_id": "job_crv_oil_first5",
+      "t": 130,
+      "kind": "frame",
+      "text": "Visual snapshot @ 130s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:140:Visual snapshot @ 140s",
+      "note_id": "job_crv_oil_first5",
+      "t": 140,
+      "kind": "frame",
+      "text": "Visual snapshot @ 140s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:143.7:Component Observation",
+      "note_id": "job_crv_oil_first5",
+      "t": 143.7,
+      "kind": "frame",
+      "text": "Component Observation — New aftermarket drain plug found on the oil pan. — 140",
+      "frame_hint": "140"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:150.3:Tool Selection",
+      "note_id": "job_crv_oil_first5",
+      "t": 150.3,
+      "kind": "frame",
+      "text": "Tool Selection — Technician retrieves a gear wrench flex-head ratchet from the toolbox. — 150",
+      "frame_hint": "150"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:160:Visual snapshot @ 160s",
+      "note_id": "job_crv_oil_first5",
+      "t": 160,
+      "kind": "frame",
+      "text": "Visual snapshot @ 160s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:169.6:Tool Demonstration",
+      "note_id": "job_crv_oil_first5",
+      "t": 169.6,
+      "kind": "frame",
+      "text": "Tool Demonstration — Toolcraft ratchet organizers are showcased, highlighting magnetic and interlocking features for organization. — 180",
+      "frame_hint": "180"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:180:Visual snapshot @ 180s",
+      "note_id": "job_crv_oil_first5",
+      "t": 180,
+      "kind": "frame",
+      "text": "Visual snapshot @ 180s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:190:Visual snapshot @ 190s",
+      "note_id": "job_crv_oil_first5",
+      "t": 190,
+      "kind": "frame",
+      "text": "Visual snapshot @ 190s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:200:Visual snapshot @ 200s",
+      "note_id": "job_crv_oil_first5",
+      "t": 200,
+      "kind": "frame",
+      "text": "Visual snapshot @ 200s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:210:Visual snapshot @ 210s",
+      "note_id": "job_crv_oil_first5",
+      "t": 210,
+      "kind": "frame",
+      "text": "Visual snapshot @ 210s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:220:Visual snapshot @ 220s",
+      "note_id": "job_crv_oil_first5",
+      "t": 220,
+      "kind": "frame",
+      "text": "Visual snapshot @ 220s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:230:Visual snapshot @ 230s",
+      "note_id": "job_crv_oil_first5",
+      "t": 230,
+      "kind": "frame",
+      "text": "Visual snapshot @ 230s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:269.4:Maintenance Procedure",
+      "note_id": "job_crv_oil_first5",
+      "t": 269.4,
+      "kind": "frame",
+      "text": "Maintenance Procedure — Technician begins removing the oil drain plug. — 270",
+      "frame_hint": "270"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:305.2:Fluid Condition",
+      "note_id": "job_crv_oil_first5",
+      "t": 305.2,
+      "kind": "frame",
+      "text": "Fluid Condition — Engine oil draining, described as 'chromium swirl chunky milk,' indicating very poor oil quality. — 310",
+      "frame_hint": "310"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:340.5:Tool Use",
+      "note_id": "job_crv_oil_first5",
+      "t": 340.5,
+      "kind": "frame",
+      "text": "Tool Use — OTC Drain Plug Pro (magnetic tool) used to remove the oil filter without making a mess, though some oil does spill. — 340",
+      "frame_hint": "340"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:423.5:Part Anomaly",
+      "note_id": "job_crv_oil_first5",
+      "t": 423.5,
+      "kind": "frame",
+      "text": "Part Anomaly — Missing a 10mm bolt from a bracket, adding to the list of previous maintenance deficiencies. — 420",
+      "frame_hint": "420"
+    },
+    {
+      "chunk_id": "job_crv_oil_first5:fr:440:Component Condition",
+      "note_id": "job_crv_oil_first5",
+      "t": 440,
+      "kind": "frame",
+      "text": "Component Condition — Grease observed seeping from seals, identified as normal manufacturer's grease during break-in, not an oil leak. — 450",
+      "frame_hint": "450"
+    }
+  ]
+}

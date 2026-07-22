@@ -1,0 +1,1214 @@
+{
+  "note_id": "job_crv_oil_last5",
+  "created_at": "2026-07-22T15:45:04.098Z",
+  "title": "Honda CR-V oil change (last 5 min)",
+  "demo_label": "Example from the job",
+  "sensors": {
+    "captured_at": "2026-07-22T17:10:00.000Z",
+    "timezone_offset_minutes": -240,
+    "geo": {
+      "latitude": 33.749,
+      "longitude": -84.388,
+      "altitude": null,
+      "accuracy": 12,
+      "heading": null,
+      "speed": 0
+    },
+    "device": {
+      "brand": "Apple",
+      "model_name": "Demo",
+      "os_name": "iOS",
+      "os_version": "18"
+    }
+  },
+  "summary": "The video documents a car maintenance process including wheel service, oil change, and system checks. The mechanic uses various tools like an impact wrench, torque wrench, and specialized organizers. Key steps include removing and re-torquing lug nuts, filling engine oil, resetting the tire pressure monitoring system, and cleaning the engine bay.",
+  "transcript": [
+    {
+      "t": 0,
+      "text": "And it's working out pretty well."
+    },
+    {
+      "t": 3.483,
+      "text": "In this mode,"
+    },
+    {
+      "t": 6.093,
+      "text": "you can see how slow it is versus"
+    },
+    {
+      "t": 9.943,
+      "text": "the third setting."
+    },
+    {
+      "t": 12.333,
+      "text": "So, yeah."
+    },
+    {
+      "t": 14.733,
+      "text": "All we do is just tap 'em in"
+    },
+    {
+      "t": 17.513,
+      "text": "STS lug nut holder"
+    },
+    {
+      "t": 20.893,
+      "text": "and the STS Raz holder,"
+    },
+    {
+      "t": 23.363,
+      "text": "and the STS Magneto Milwaukee attachment."
+    },
+    {
+      "t": 27.243,
+      "text": "All linked in my bio, all very nice."
+    },
+    {
+      "t": 30.633,
+      "text": "Go ahead and check that out, bud."
+    },
+    {
+      "t": 41.593,
+      "text": "Done with you, 19 millimeters."
+    },
+    {
+      "t": 51.053,
+      "text": "and the beautiful half-inch snappy torque wrench. 80 foot-pounds."
+    },
+    {
+      "t": 57.073,
+      "text": "There she is."
+    },
+    {
+      "t": 113.843,
+      "text": "Double tap."
+    },
+    {
+      "t": 131.783,
+      "text": "Let's get some earl up in there. Again, low-profile ratchet organizers."
+    },
+    {
+      "t": 139.733,
+      "text": "Toolcraft organizers."
+    },
+    {
+      "t": 142.103,
+      "text": "Link in bio, 3.7."
+    },
+    {
+      "t": 147.93,
+      "text": "Shit's on tap. Any of y'all who have this Funnel Buddy, STS Auto Design also makes magneto holders for this bad bitch."
+    },
+    {
+      "t": 159.043,
+      "text": "So you name it, we probably got a 3D company that makes a, ya know, magneto attachment for it. So,"
+    },
+    {
+      "t": 165.733,
+      "text": "3.7 Katie Kurts."
+    },
+    {
+      "t": 170.83,
+      "text": "And we're just gonna send that right up in there."
+    },
+    {
+      "t": 182.523,
+      "text": "Beautiful golden flow."
+    },
+    {
+      "t": 196.483,
+      "text": "All up in there. Jingle jangle pivot."
+    },
+    {
+      "t": 204.093,
+      "text": "Pivot."
+    },
+    {
+      "t": 208.683,
+      "text": "Retisserate."
+    },
+    {
+      "t": 218.493,
+      "text": "And uh, cappuccino."
+    },
+    {
+      "t": 226.793,
+      "text": "Start this bad boy on up."
+    },
+    {
+      "t": 232.063,
+      "text": "I did already reset the oil light."
+    },
+    {
+      "t": 236.433,
+      "text": "But I do believe they were a little past due."
+    },
+    {
+      "t": 240.233,
+      "text": "And uh, you saw that oil."
+    },
+    {
+      "t": 242.743,
+      "text": "It looked a little rough."
+    },
+    {
+      "t": 245.923,
+      "text": "Oil light. Or sorry, tire light. We can go ahead and"
+    },
+    {
+      "t": 252.753,
+      "text": "reset the tire light through the infotainment unit."
+    },
+    {
+      "t": 256.093,
+      "text": "Settings, vehicle."
+    },
+    {
+      "t": 260.673,
+      "text": "Tapamiz calibration."
+    },
+    {
+      "t": 263.363,
+      "text": "Calibrate."
+    },
+    {
+      "t": 266.363,
+      "text": "Hit that calibrate. Before I shut this off, let me go ahead and"
+    },
+    {
+      "t": 273.743,
+      "text": "turn on the AC system and see yeah."
+    },
+    {
+      "t": 280.993,
+      "text": "See how that's working out for him. Lovely blue Coast light."
+    },
+    {
+      "t": 305.823,
+      "text": "Okay."
+    },
+    {
+      "t": 306.943,
+      "text": "He does engage."
+    },
+    {
+      "t": 313.433,
+      "text": "That's good. Well,"
+    },
+    {
+      "t": 321.783,
+      "text": "she seems to be working for now. So, uh, yeah."
+    },
+    {
+      "t": 329.173,
+      "text": "We'll just we'll just note that."
+    },
+    {
+      "t": 331.633,
+      "text": "How's that sound? Turn you off. Give her a little checky-poo here."
+    },
+    {
+      "t": 344.023,
+      "text": "Show me what you got. Mm-hmm. That's looking real nice."
+    },
+    {
+      "t": 353.953,
+      "text": "Give her a nice little Simba."
+    },
+    {
+      "t": 361.643,
+      "text": "And uh, pressure wash."
+    },
+    {
+      "t": 372.483,
+      "text": "That's looking mint, bud."
+    }
+  ],
+  "events": [
+    {
+      "t": 0,
+      "label": "Tool use",
+      "detail": "Mechanic uses an impact wrench to remove lug nuts from a car wheel.",
+      "frame_hint": "00:00",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0000.jpg"
+    },
+    {
+      "t": 3.483,
+      "label": "Tool operation",
+      "detail": "Mechanic demonstrates different speed modes of the impact wrench.",
+      "frame_hint": "00:03",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0000.jpg"
+    },
+    {
+      "t": 10,
+      "label": "Visual snapshot @ 10s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0010.jpg"
+    },
+    {
+      "t": 13.513,
+      "label": "Car lift adjustment",
+      "detail": "Mechanic adjusts car lift arm.",
+      "frame_hint": "00:13",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0010.jpg"
+    },
+    {
+      "t": 17.513,
+      "label": "Tool identification",
+      "detail": "STS lug nut holder visible.",
+      "frame_hint": "00:17",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0020.jpg"
+    },
+    {
+      "t": 20.893,
+      "label": "Tool identification",
+      "detail": "STS Raz holder and Milwaukee Magneto attachment are shown.",
+      "frame_hint": "00:21",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0020.jpg"
+    },
+    {
+      "t": 30,
+      "label": "Visual snapshot @ 30s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0030.jpg"
+    },
+    {
+      "t": 40.853,
+      "label": "Car operation",
+      "detail": "Car is raised by the lift.",
+      "frame_hint": "00:40",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0040.jpg"
+    },
+    {
+      "t": 44.593,
+      "label": "Tool storage",
+      "detail": "Mechanic closes a toolbox drawer.",
+      "frame_hint": "00:44",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0040.jpg"
+    },
+    {
+      "t": 48.773,
+      "label": "Tool retrieval",
+      "detail": "Mechanic retrieves a Snap-on 1/2 inch torque wrench from the toolbox.",
+      "frame_hint": "00:48",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0050.jpg"
+    },
+    {
+      "t": 54.803,
+      "label": "Measurement setting",
+      "detail": "Torque wrench set to 80 ft-lbs.",
+      "frame_hint": "00:54",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0050.jpg"
+    },
+    {
+      "t": 56.403,
+      "label": "Tool use",
+      "detail": "Mechanic begins torquing lug nuts on the car wheel.",
+      "frame_hint": "00:56",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0060.jpg"
+    },
+    {
+      "t": 60,
+      "label": "Visual snapshot @ 60s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0060.jpg"
+    },
+    {
+      "t": 70,
+      "label": "Visual snapshot @ 70s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0070.jpg"
+    },
+    {
+      "t": 80,
+      "label": "Visual snapshot @ 80s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0080.jpg"
+    },
+    {
+      "t": 90,
+      "label": "Visual snapshot @ 90s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0090.jpg"
+    },
+    {
+      "t": 100,
+      "label": "Visual snapshot @ 100s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0100.jpg"
+    },
+    {
+      "t": 110,
+      "label": "Visual snapshot @ 110s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0110.jpg"
+    },
+    {
+      "t": 120,
+      "label": "Visual snapshot @ 120s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0120.jpg"
+    },
+    {
+      "t": 130,
+      "label": "Visual snapshot @ 130s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0130.jpg"
+    },
+    {
+      "t": 133.563,
+      "label": "Tool organization",
+      "detail": "Mechanic highlights 'low profile ratchet organizers' and 'Toolcraft organizers'.",
+      "frame_hint": "01:33",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0130.jpg"
+    },
+    {
+      "t": 140,
+      "label": "Visual snapshot @ 140s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0140.jpg"
+    },
+    {
+      "t": 142.103,
+      "label": "Fluid handling",
+      "detail": "Mechanic begins filling a measuring pitcher with engine oil.",
+      "frame_hint": "01:42",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0140.jpg"
+    },
+    {
+      "t": 147.383,
+      "label": "Tool identification",
+      "detail": "Funnel Buddy and STS Auto Design magneto holders are mentioned.",
+      "frame_hint": "01:47",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0150.jpg"
+    },
+    {
+      "t": 150.383,
+      "label": "Funnel use",
+      "detail": "Funnel Buddy with magnetic attachment shown.",
+      "frame_hint": "01:50",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0150.jpg"
+    },
+    {
+      "t": 160,
+      "label": "Visual snapshot @ 160s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0160.jpg"
+    },
+    {
+      "t": 165.733,
+      "label": "Fluid measurement",
+      "detail": "3.7 quarts of oil is measured.",
+      "frame_hint": "02:05",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0170.jpg"
+    },
+    {
+      "t": 167.383,
+      "label": "Fluid addition",
+      "detail": "Mechanic pours oil into the car engine using a funnel.",
+      "frame_hint": "02:07",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0170.jpg"
+    },
+    {
+      "t": 170,
+      "label": "Visual snapshot @ 170s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0170.jpg"
+    },
+    {
+      "t": 180,
+      "label": "Visual snapshot @ 180s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0180.jpg"
+    },
+    {
+      "t": 190,
+      "label": "Visual snapshot @ 190s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0190.jpg"
+    },
+    {
+      "t": 200,
+      "label": "Visual snapshot @ 200s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0200.jpg"
+    },
+    {
+      "t": 210,
+      "label": "Visual snapshot @ 210s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0210.jpg"
+    },
+    {
+      "t": 220,
+      "label": "Visual snapshot @ 220s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0220.jpg"
+    },
+    {
+      "t": 226.793,
+      "label": "Vehicle operation",
+      "detail": "Mechanic starts the car.",
+      "frame_hint": "02:37",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0230.jpg"
+    },
+    {
+      "t": 230,
+      "label": "Visual snapshot @ 230s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_crv_oil_last5/t0230.jpg"
+    },
+    {
+      "t": 245.923,
+      "label": "Dashboard reset",
+      "detail": "Mechanic begins resetting the tire pressure monitoring system via the car's infotainment unit.",
+      "frame_hint": "02:45"
+    },
+    {
+      "t": 267.313,
+      "label": "AC system check",
+      "detail": "Mechanic turns on and checks the car's AC system.",
+      "frame_hint": "02:57"
+    },
+    {
+      "t": 279.793,
+      "label": "Tool use",
+      "detail": "Mechanic uses a blue Coast flashlight to inspect the engine bay.",
+      "frame_hint": "03:19"
+    },
+    {
+      "t": 332.963,
+      "label": "Fluid check",
+      "detail": "Mechanic checks the engine oil level with the dipstick.",
+      "frame_hint": "03:44"
+    },
+    {
+      "t": 352.013,
+      "label": "Engine cover",
+      "detail": "Mechanic closes the engine cover, tapping the 'Earth Dreams' label.",
+      "frame_hint": "04:00"
+    },
+    {
+      "t": 361.643,
+      "label": "Vehicle cleaning",
+      "detail": "Mechanic retrieves a pressure washer to clean the engine bay and wheels.",
+      "frame_hint": "04:05"
+    },
+    {
+      "t": 372.483,
+      "label": "Task completion",
+      "detail": "Mechanic gives a thumbs up, signaling completion of the task.",
+      "frame_hint": "04:44"
+    }
+  ],
+  "video_path": "/Users/vvvakho/Documents/Code/field-notes/data/videos/job_crv_oil_last5.mp4",
+  "media": {
+    "original_bytes": 15280295,
+    "compressed_bytes": 15280295,
+    "frame_count": 24
+  },
+  "status": "ready",
+  "index_chunks": [
+    {
+      "chunk_id": "job_crv_oil_last5:summary",
+      "note_id": "job_crv_oil_last5",
+      "t": 0,
+      "kind": "summary",
+      "text": "The video documents a car maintenance process including wheel service, oil change, and system checks. The mechanic uses various tools like an impact wrench, torque wrench, and specialized organizers. Key steps include removing and re-torquing lug nuts, filling engine oil, resetting the tire pressure monitoring system, and cleaning the engine bay."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:0",
+      "note_id": "job_crv_oil_last5",
+      "t": 0,
+      "kind": "transcript",
+      "text": "And it's working out pretty well."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:3.483",
+      "note_id": "job_crv_oil_last5",
+      "t": 3.483,
+      "kind": "transcript",
+      "text": "In this mode,"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:6.093",
+      "note_id": "job_crv_oil_last5",
+      "t": 6.093,
+      "kind": "transcript",
+      "text": "you can see how slow it is versus"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:9.943",
+      "note_id": "job_crv_oil_last5",
+      "t": 9.943,
+      "kind": "transcript",
+      "text": "the third setting."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:12.333",
+      "note_id": "job_crv_oil_last5",
+      "t": 12.333,
+      "kind": "transcript",
+      "text": "So, yeah."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:14.733",
+      "note_id": "job_crv_oil_last5",
+      "t": 14.733,
+      "kind": "transcript",
+      "text": "All we do is just tap 'em in"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:17.513",
+      "note_id": "job_crv_oil_last5",
+      "t": 17.513,
+      "kind": "transcript",
+      "text": "STS lug nut holder"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:20.893",
+      "note_id": "job_crv_oil_last5",
+      "t": 20.893,
+      "kind": "transcript",
+      "text": "and the STS Raz holder,"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:23.363",
+      "note_id": "job_crv_oil_last5",
+      "t": 23.363,
+      "kind": "transcript",
+      "text": "and the STS Magneto Milwaukee attachment."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:27.243",
+      "note_id": "job_crv_oil_last5",
+      "t": 27.243,
+      "kind": "transcript",
+      "text": "All linked in my bio, all very nice."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:30.633",
+      "note_id": "job_crv_oil_last5",
+      "t": 30.633,
+      "kind": "transcript",
+      "text": "Go ahead and check that out, bud."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:41.593",
+      "note_id": "job_crv_oil_last5",
+      "t": 41.593,
+      "kind": "transcript",
+      "text": "Done with you, 19 millimeters."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:51.053",
+      "note_id": "job_crv_oil_last5",
+      "t": 51.053,
+      "kind": "transcript",
+      "text": "and the beautiful half-inch snappy torque wrench. 80 foot-pounds."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:57.073",
+      "note_id": "job_crv_oil_last5",
+      "t": 57.073,
+      "kind": "transcript",
+      "text": "There she is."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:113.843",
+      "note_id": "job_crv_oil_last5",
+      "t": 113.843,
+      "kind": "transcript",
+      "text": "Double tap."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:131.783",
+      "note_id": "job_crv_oil_last5",
+      "t": 131.783,
+      "kind": "transcript",
+      "text": "Let's get some earl up in there. Again, low-profile ratchet organizers."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:139.733",
+      "note_id": "job_crv_oil_last5",
+      "t": 139.733,
+      "kind": "transcript",
+      "text": "Toolcraft organizers."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:142.103",
+      "note_id": "job_crv_oil_last5",
+      "t": 142.103,
+      "kind": "transcript",
+      "text": "Link in bio, 3.7."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:147.93",
+      "note_id": "job_crv_oil_last5",
+      "t": 147.93,
+      "kind": "transcript",
+      "text": "Shit's on tap. Any of y'all who have this Funnel Buddy, STS Auto Design also makes magneto holders for this bad bitch."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:159.043",
+      "note_id": "job_crv_oil_last5",
+      "t": 159.043,
+      "kind": "transcript",
+      "text": "So you name it, we probably got a 3D company that makes a, ya know, magneto attachment for it. So,"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:165.733",
+      "note_id": "job_crv_oil_last5",
+      "t": 165.733,
+      "kind": "transcript",
+      "text": "3.7 Katie Kurts."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:170.83",
+      "note_id": "job_crv_oil_last5",
+      "t": 170.83,
+      "kind": "transcript",
+      "text": "And we're just gonna send that right up in there."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:182.523",
+      "note_id": "job_crv_oil_last5",
+      "t": 182.523,
+      "kind": "transcript",
+      "text": "Beautiful golden flow."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:196.483",
+      "note_id": "job_crv_oil_last5",
+      "t": 196.483,
+      "kind": "transcript",
+      "text": "All up in there. Jingle jangle pivot."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:204.093",
+      "note_id": "job_crv_oil_last5",
+      "t": 204.093,
+      "kind": "transcript",
+      "text": "Pivot."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:208.683",
+      "note_id": "job_crv_oil_last5",
+      "t": 208.683,
+      "kind": "transcript",
+      "text": "Retisserate."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:218.493",
+      "note_id": "job_crv_oil_last5",
+      "t": 218.493,
+      "kind": "transcript",
+      "text": "And uh, cappuccino."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:226.793",
+      "note_id": "job_crv_oil_last5",
+      "t": 226.793,
+      "kind": "transcript",
+      "text": "Start this bad boy on up."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:232.063",
+      "note_id": "job_crv_oil_last5",
+      "t": 232.063,
+      "kind": "transcript",
+      "text": "I did already reset the oil light."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:236.433",
+      "note_id": "job_crv_oil_last5",
+      "t": 236.433,
+      "kind": "transcript",
+      "text": "But I do believe they were a little past due."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:240.233",
+      "note_id": "job_crv_oil_last5",
+      "t": 240.233,
+      "kind": "transcript",
+      "text": "And uh, you saw that oil."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:242.743",
+      "note_id": "job_crv_oil_last5",
+      "t": 242.743,
+      "kind": "transcript",
+      "text": "It looked a little rough."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:245.923",
+      "note_id": "job_crv_oil_last5",
+      "t": 245.923,
+      "kind": "transcript",
+      "text": "Oil light. Or sorry, tire light. We can go ahead and"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:252.753",
+      "note_id": "job_crv_oil_last5",
+      "t": 252.753,
+      "kind": "transcript",
+      "text": "reset the tire light through the infotainment unit."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:256.093",
+      "note_id": "job_crv_oil_last5",
+      "t": 256.093,
+      "kind": "transcript",
+      "text": "Settings, vehicle."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:260.673",
+      "note_id": "job_crv_oil_last5",
+      "t": 260.673,
+      "kind": "transcript",
+      "text": "Tapamiz calibration."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:263.363",
+      "note_id": "job_crv_oil_last5",
+      "t": 263.363,
+      "kind": "transcript",
+      "text": "Calibrate."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:266.363",
+      "note_id": "job_crv_oil_last5",
+      "t": 266.363,
+      "kind": "transcript",
+      "text": "Hit that calibrate. Before I shut this off, let me go ahead and"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:273.743",
+      "note_id": "job_crv_oil_last5",
+      "t": 273.743,
+      "kind": "transcript",
+      "text": "turn on the AC system and see yeah."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:280.993",
+      "note_id": "job_crv_oil_last5",
+      "t": 280.993,
+      "kind": "transcript",
+      "text": "See how that's working out for him. Lovely blue Coast light."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:305.823",
+      "note_id": "job_crv_oil_last5",
+      "t": 305.823,
+      "kind": "transcript",
+      "text": "Okay."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:306.943",
+      "note_id": "job_crv_oil_last5",
+      "t": 306.943,
+      "kind": "transcript",
+      "text": "He does engage."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:313.433",
+      "note_id": "job_crv_oil_last5",
+      "t": 313.433,
+      "kind": "transcript",
+      "text": "That's good. Well,"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:321.783",
+      "note_id": "job_crv_oil_last5",
+      "t": 321.783,
+      "kind": "transcript",
+      "text": "she seems to be working for now. So, uh, yeah."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:329.173",
+      "note_id": "job_crv_oil_last5",
+      "t": 329.173,
+      "kind": "transcript",
+      "text": "We'll just we'll just note that."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:331.633",
+      "note_id": "job_crv_oil_last5",
+      "t": 331.633,
+      "kind": "transcript",
+      "text": "How's that sound? Turn you off. Give her a little checky-poo here."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:344.023",
+      "note_id": "job_crv_oil_last5",
+      "t": 344.023,
+      "kind": "transcript",
+      "text": "Show me what you got. Mm-hmm. That's looking real nice."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:353.953",
+      "note_id": "job_crv_oil_last5",
+      "t": 353.953,
+      "kind": "transcript",
+      "text": "Give her a nice little Simba."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:361.643",
+      "note_id": "job_crv_oil_last5",
+      "t": 361.643,
+      "kind": "transcript",
+      "text": "And uh, pressure wash."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:tr:372.483",
+      "note_id": "job_crv_oil_last5",
+      "t": 372.483,
+      "kind": "transcript",
+      "text": "That's looking mint, bud."
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:0:Tool use",
+      "note_id": "job_crv_oil_last5",
+      "t": 0,
+      "kind": "frame",
+      "text": "Tool use — Mechanic uses an impact wrench to remove lug nuts from a car wheel. — 00:00",
+      "frame_hint": "00:00"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:3.483:Tool operation",
+      "note_id": "job_crv_oil_last5",
+      "t": 3.483,
+      "kind": "frame",
+      "text": "Tool operation — Mechanic demonstrates different speed modes of the impact wrench. — 00:03",
+      "frame_hint": "00:03"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:10:Visual snapshot @ 10s",
+      "note_id": "job_crv_oil_last5",
+      "t": 10,
+      "kind": "frame",
+      "text": "Visual snapshot @ 10s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:13.513:Car lift adjustment",
+      "note_id": "job_crv_oil_last5",
+      "t": 13.513,
+      "kind": "frame",
+      "text": "Car lift adjustment — Mechanic adjusts car lift arm. — 00:13",
+      "frame_hint": "00:13"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:17.513:Tool identification",
+      "note_id": "job_crv_oil_last5",
+      "t": 17.513,
+      "kind": "frame",
+      "text": "Tool identification — STS lug nut holder visible. — 00:17",
+      "frame_hint": "00:17"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:20.893:Tool identification",
+      "note_id": "job_crv_oil_last5",
+      "t": 20.893,
+      "kind": "frame",
+      "text": "Tool identification — STS Raz holder and Milwaukee Magneto attachment are shown. — 00:21",
+      "frame_hint": "00:21"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:30:Visual snapshot @ 30s",
+      "note_id": "job_crv_oil_last5",
+      "t": 30,
+      "kind": "frame",
+      "text": "Visual snapshot @ 30s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:40.853:Car operation",
+      "note_id": "job_crv_oil_last5",
+      "t": 40.853,
+      "kind": "frame",
+      "text": "Car operation — Car is raised by the lift. — 00:40",
+      "frame_hint": "00:40"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:44.593:Tool storage",
+      "note_id": "job_crv_oil_last5",
+      "t": 44.593,
+      "kind": "frame",
+      "text": "Tool storage — Mechanic closes a toolbox drawer. — 00:44",
+      "frame_hint": "00:44"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:48.773:Tool retrieval",
+      "note_id": "job_crv_oil_last5",
+      "t": 48.773,
+      "kind": "frame",
+      "text": "Tool retrieval — Mechanic retrieves a Snap-on 1/2 inch torque wrench from the toolbox. — 00:48",
+      "frame_hint": "00:48"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:54.803:Measurement setting",
+      "note_id": "job_crv_oil_last5",
+      "t": 54.803,
+      "kind": "frame",
+      "text": "Measurement setting — Torque wrench set to 80 ft-lbs. — 00:54",
+      "frame_hint": "00:54"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:56.403:Tool use",
+      "note_id": "job_crv_oil_last5",
+      "t": 56.403,
+      "kind": "frame",
+      "text": "Tool use — Mechanic begins torquing lug nuts on the car wheel. — 00:56",
+      "frame_hint": "00:56"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:60:Visual snapshot @ 60s",
+      "note_id": "job_crv_oil_last5",
+      "t": 60,
+      "kind": "frame",
+      "text": "Visual snapshot @ 60s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:70:Visual snapshot @ 70s",
+      "note_id": "job_crv_oil_last5",
+      "t": 70,
+      "kind": "frame",
+      "text": "Visual snapshot @ 70s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:80:Visual snapshot @ 80s",
+      "note_id": "job_crv_oil_last5",
+      "t": 80,
+      "kind": "frame",
+      "text": "Visual snapshot @ 80s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:90:Visual snapshot @ 90s",
+      "note_id": "job_crv_oil_last5",
+      "t": 90,
+      "kind": "frame",
+      "text": "Visual snapshot @ 90s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:100:Visual snapshot @ 100s",
+      "note_id": "job_crv_oil_last5",
+      "t": 100,
+      "kind": "frame",
+      "text": "Visual snapshot @ 100s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:110:Visual snapshot @ 110s",
+      "note_id": "job_crv_oil_last5",
+      "t": 110,
+      "kind": "frame",
+      "text": "Visual snapshot @ 110s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:120:Visual snapshot @ 120s",
+      "note_id": "job_crv_oil_last5",
+      "t": 120,
+      "kind": "frame",
+      "text": "Visual snapshot @ 120s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:130:Visual snapshot @ 130s",
+      "note_id": "job_crv_oil_last5",
+      "t": 130,
+      "kind": "frame",
+      "text": "Visual snapshot @ 130s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:133.563:Tool organization",
+      "note_id": "job_crv_oil_last5",
+      "t": 133.563,
+      "kind": "frame",
+      "text": "Tool organization — Mechanic highlights 'low profile ratchet organizers' and 'Toolcraft organizers'. — 01:33",
+      "frame_hint": "01:33"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:140:Visual snapshot @ 140s",
+      "note_id": "job_crv_oil_last5",
+      "t": 140,
+      "kind": "frame",
+      "text": "Visual snapshot @ 140s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:142.103:Fluid handling",
+      "note_id": "job_crv_oil_last5",
+      "t": 142.103,
+      "kind": "frame",
+      "text": "Fluid handling — Mechanic begins filling a measuring pitcher with engine oil. — 01:42",
+      "frame_hint": "01:42"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:147.383:Tool identification",
+      "note_id": "job_crv_oil_last5",
+      "t": 147.383,
+      "kind": "frame",
+      "text": "Tool identification — Funnel Buddy and STS Auto Design magneto holders are mentioned. — 01:47",
+      "frame_hint": "01:47"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:150.383:Funnel use",
+      "note_id": "job_crv_oil_last5",
+      "t": 150.383,
+      "kind": "frame",
+      "text": "Funnel use — Funnel Buddy with magnetic attachment shown. — 01:50",
+      "frame_hint": "01:50"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:160:Visual snapshot @ 160s",
+      "note_id": "job_crv_oil_last5",
+      "t": 160,
+      "kind": "frame",
+      "text": "Visual snapshot @ 160s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:165.733:Fluid measurement",
+      "note_id": "job_crv_oil_last5",
+      "t": 165.733,
+      "kind": "frame",
+      "text": "Fluid measurement — 3.7 quarts of oil is measured. — 02:05",
+      "frame_hint": "02:05"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:167.383:Fluid addition",
+      "note_id": "job_crv_oil_last5",
+      "t": 167.383,
+      "kind": "frame",
+      "text": "Fluid addition — Mechanic pours oil into the car engine using a funnel. — 02:07",
+      "frame_hint": "02:07"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:170:Visual snapshot @ 170s",
+      "note_id": "job_crv_oil_last5",
+      "t": 170,
+      "kind": "frame",
+      "text": "Visual snapshot @ 170s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:180:Visual snapshot @ 180s",
+      "note_id": "job_crv_oil_last5",
+      "t": 180,
+      "kind": "frame",
+      "text": "Visual snapshot @ 180s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:190:Visual snapshot @ 190s",
+      "note_id": "job_crv_oil_last5",
+      "t": 190,
+      "kind": "frame",
+      "text": "Visual snapshot @ 190s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:200:Visual snapshot @ 200s",
+      "note_id": "job_crv_oil_last5",
+      "t": 200,
+      "kind": "frame",
+      "text": "Visual snapshot @ 200s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:210:Visual snapshot @ 210s",
+      "note_id": "job_crv_oil_last5",
+      "t": 210,
+      "kind": "frame",
+      "text": "Visual snapshot @ 210s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:220:Visual snapshot @ 220s",
+      "note_id": "job_crv_oil_last5",
+      "t": 220,
+      "kind": "frame",
+      "text": "Visual snapshot @ 220s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:226.793:Vehicle operation",
+      "note_id": "job_crv_oil_last5",
+      "t": 226.793,
+      "kind": "frame",
+      "text": "Vehicle operation — Mechanic starts the car. — 02:37",
+      "frame_hint": "02:37"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:230:Visual snapshot @ 230s",
+      "note_id": "job_crv_oil_last5",
+      "t": 230,
+      "kind": "frame",
+      "text": "Visual snapshot @ 230s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:245.923:Dashboard reset",
+      "note_id": "job_crv_oil_last5",
+      "t": 245.923,
+      "kind": "frame",
+      "text": "Dashboard reset — Mechanic begins resetting the tire pressure monitoring system via the car's infotainment unit. — 02:45",
+      "frame_hint": "02:45"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:267.313:AC system check",
+      "note_id": "job_crv_oil_last5",
+      "t": 267.313,
+      "kind": "frame",
+      "text": "AC system check — Mechanic turns on and checks the car's AC system. — 02:57",
+      "frame_hint": "02:57"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:279.793:Tool use",
+      "note_id": "job_crv_oil_last5",
+      "t": 279.793,
+      "kind": "frame",
+      "text": "Tool use — Mechanic uses a blue Coast flashlight to inspect the engine bay. — 03:19",
+      "frame_hint": "03:19"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:332.963:Fluid check",
+      "note_id": "job_crv_oil_last5",
+      "t": 332.963,
+      "kind": "frame",
+      "text": "Fluid check — Mechanic checks the engine oil level with the dipstick. — 03:44",
+      "frame_hint": "03:44"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:352.013:Engine cover",
+      "note_id": "job_crv_oil_last5",
+      "t": 352.013,
+      "kind": "frame",
+      "text": "Engine cover — Mechanic closes the engine cover, tapping the 'Earth Dreams' label. — 04:00",
+      "frame_hint": "04:00"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:361.643:Vehicle cleaning",
+      "note_id": "job_crv_oil_last5",
+      "t": 361.643,
+      "kind": "frame",
+      "text": "Vehicle cleaning — Mechanic retrieves a pressure washer to clean the engine bay and wheels. — 04:05",
+      "frame_hint": "04:05"
+    },
+    {
+      "chunk_id": "job_crv_oil_last5:fr:372.483:Task completion",
+      "note_id": "job_crv_oil_last5",
+      "t": 372.483,
+      "kind": "frame",
+      "text": "Task completion — Mechanic gives a thumbs up, signaling completion of the task. — 04:44",
+      "frame_hint": "04:44"
+    }
+  ]
+}

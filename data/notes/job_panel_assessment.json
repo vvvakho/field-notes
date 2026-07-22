@@ -1,0 +1,909 @@
+{
+  "note_id": "job_panel_assessment",
+  "created_at": "2026-07-22T15:40:29.546Z",
+  "title": "Electrical panel assessment",
+  "demo_label": "Example from the job",
+  "sensors": {
+    "captured_at": "2026-07-22T15:00:00.000Z",
+    "timezone_offset_minutes": -240,
+    "geo": {
+      "latitude": 41.7151,
+      "longitude": 44.8271,
+      "altitude": null,
+      "accuracy": 12,
+      "heading": null,
+      "speed": 0
+    },
+    "device": {
+      "brand": "Apple",
+      "model_name": "Demo",
+      "os_name": "iOS",
+      "os_version": "18"
+    }
+  },
+  "summary": "The video shows an electrician inspecting rusted electrical panels and meters at a property. He identifies copper wiring and discusses the amperage capacity. Later, he enters a basement with a colleague to inspect larger panels and an old boiler. The video concludes with the electrician driving away in his 'Landers Electric' van, discussing the next steps for the project and an upcoming material check.",
+  "transcript": [
+    {
+      "t": 0,
+      "text": "There we go."
+    },
+    {
+      "t": 6,
+      "text": "I mean, they look like number"
+    },
+    {
+      "t": 12,
+      "text": "Oh, goodness."
+    },
+    {
+      "t": 14,
+      "text": "Maybe number two's."
+    },
+    {
+      "t": 16,
+      "text": "What do you think? Is there any writing over here?"
+    },
+    {
+      "t": 18,
+      "text": "No."
+    },
+    {
+      "t": 20,
+      "text": "I mean, these are definitely two's right here."
+    },
+    {
+      "t": 23,
+      "text": "And it's copper, that's good."
+    },
+    {
+      "t": 25,
+      "text": "This is not aluminum."
+    },
+    {
+      "t": 26,
+      "text": "As in my role, right? Like"
+    },
+    {
+      "t": 28,
+      "text": "Yeah."
+    },
+    {
+      "t": 30,
+      "text": "making sure that if this is if these are number two's, then, you know, number uh sorry, 30 amp is adequate. And obviously it is."
+    },
+    {
+      "t": 37,
+      "text": "Right."
+    },
+    {
+      "t": 38,
+      "text": "Definitely."
+    },
+    {
+      "t": 38,
+      "text": "It's good. I mean, we're not looking at something that could potentially not be good for voltage draw or something."
+    },
+    {
+      "t": 44,
+      "text": "Dom, are are units 311 and 313 bigger units?"
+    },
+    {
+      "t": 48,
+      "text": "I mean, they're over on this side."
+    },
+    {
+      "t": 50,
+      "text": "Maybe a little bit. Maybe we get into one of them."
+    },
+    {
+      "t": 53,
+      "text": "Okay."
+    },
+    {
+      "t": 54,
+      "text": "Yeah, we can go check this up."
+    },
+    {
+      "t": 66,
+      "text": "Go down, down, down."
+    },
+    {
+      "t": 69,
+      "text": "Whoa."
+    },
+    {
+      "t": 71,
+      "text": "This looks this looks perfect."
+    },
+    {
+      "t": 73,
+      "text": "Wow."
+    },
+    {
+      "t": 73,
+      "text": "There it is."
+    },
+    {
+      "t": 75,
+      "text": "So they are bigger."
+    },
+    {
+      "t": 77,
+      "text": "Yeah."
+    },
+    {
+      "t": 78,
+      "text": "So we're good on these ones."
+    },
+    {
+      "t": 82,
+      "text": "That tank. A boiler? That's the old boiler?"
+    },
+    {
+      "t": 86,
+      "text": "Yeah, it's probably the top three weird ones I've seen."
+    },
+    {
+      "t": 92,
+      "text": "Not number one I've seen."
+    },
+    {
+      "t": 93,
+      "text": "That's awesome."
+    },
+    {
+      "t": 104,
+      "text": "Out of the choky room."
+    },
+    {
+      "t": 107,
+      "text": "All right, so you got what you need."
+    },
+    {
+      "t": 109,
+      "text": "I think so. Is there anything that you questions on or"
+    },
+    {
+      "t": 113,
+      "text": "No."
+    },
+    {
+      "t": 114,
+      "text": "Just here to get the drawings and then"
+    },
+    {
+      "t": 116,
+      "text": "Yeah."
+    },
+    {
+      "t": 117,
+      "text": "get you a quote Dom and we'll try and"
+    },
+    {
+      "t": 119,
+      "text": "get it done."
+    },
+    {
+      "t": 124,
+      "text": "Well, that was an interesting one."
+    },
+    {
+      "t": 126,
+      "text": "So, where we're at is they're gonna have the engineer design all the drawings now that they have everything they need."
+    },
+    {
+      "t": 133,
+      "text": "And they'll send that over to Dom and then and who he will probably ask me for a quote."
+    },
+    {
+      "t": 141,
+      "text": "And as long as we land it, then we'll get to move on that one."
+    },
+    {
+      "t": 144,
+      "text": "So, I'm gonna head up north. We're gonna go hit Oceanside."
+    },
+    {
+      "t": 149,
+      "text": "And we're gonna hit um the apartment that we're remodeling. And on the way, I have to stop by and talk with Scott."
+    },
+    {
+      "t": 158,
+      "text": "He's uh from Regency supply and he's bringing me a a piece of wire because I wanted to see there's a Oncor wire that they use."
+    },
+    {
+      "t": 169,
+      "text": "And I want to check it out and see uh see how good the wire is, what the installation looks like. So I'm gonna stop by"
+    }
+  ],
+  "events": [
+    {
+      "t": 0,
+      "label": "Action",
+      "detail": "Opening a rusted electrical panel",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_panel_assessment/t0000.jpg"
+    },
+    {
+      "t": 4,
+      "label": "Equipment Inspection",
+      "detail": "Rusted electrical panel with internal components visible. Panel IDs '313' and '311' are visible.",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_panel_assessment/t0000.jpg"
+    },
+    {
+      "t": 10,
+      "label": "Visual snapshot @ 10s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_panel_assessment/t0010.jpg"
+    },
+    {
+      "t": 15,
+      "label": "Material Identification",
+      "detail": "Person points to copper wiring inside the electrical panel.",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_panel_assessment/t0010.jpg"
+    },
+    {
+      "t": 20,
+      "label": "Visual snapshot @ 20s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_panel_assessment/t0020.jpg"
+    },
+    {
+      "t": 26,
+      "label": "Equipment Detail",
+      "detail": "Close-up of exposed electrical components and wiring.",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_panel_assessment/t0030.jpg"
+    },
+    {
+      "t": 30,
+      "label": "Visual snapshot @ 30s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_panel_assessment/t0030.jpg"
+    },
+    {
+      "t": 40,
+      "label": "Visual snapshot @ 40s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_panel_assessment/t0040.jpg"
+    },
+    {
+      "t": 45,
+      "label": "Equipment Inspection",
+      "detail": "Wider shot of three electrical meters and two open electrical panels, showing unit IDs.",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_panel_assessment/t0040.jpg"
+    },
+    {
+      "t": 50,
+      "label": "Visual snapshot @ 50s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_panel_assessment/t0050.jpg"
+    },
+    {
+      "t": 57,
+      "label": "Action",
+      "detail": "Closing electrical panel with a screwdriver",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_panel_assessment/t0060.jpg"
+    },
+    {
+      "t": 60,
+      "label": "Visual snapshot @ 60s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_panel_assessment/t0060.jpg"
+    },
+    {
+      "t": 70,
+      "label": "Visual snapshot @ 70s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_panel_assessment/t0070.jpg"
+    },
+    {
+      "t": 80,
+      "label": "Visual snapshot @ 80s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_panel_assessment/t0080.jpg"
+    },
+    {
+      "t": 90,
+      "label": "Visual snapshot @ 90s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_panel_assessment/t0090.jpg"
+    },
+    {
+      "t": 100,
+      "label": "Location Transition",
+      "detail": "Two people entering a dark, cluttered basement through a low doorway.",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_panel_assessment/t0100.jpg"
+    },
+    {
+      "t": 111,
+      "label": "Equipment Inspection",
+      "detail": "Man points to larger electrical panels inside the basement.",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_panel_assessment/t0110.jpg"
+    },
+    {
+      "t": 118,
+      "label": "Equipment Observation",
+      "detail": "An old boiler/tank is visible in the cluttered basement.",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_panel_assessment/t0120.jpg"
+    },
+    {
+      "t": 126,
+      "label": "Location Transition",
+      "detail": "Walking out of the basement and closing the door.",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_panel_assessment/t0130.jpg"
+    },
+    {
+      "t": 130,
+      "label": "Visual snapshot @ 130s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_panel_assessment/t0130.jpg"
+    },
+    {
+      "t": 135,
+      "label": "Location",
+      "detail": "View of an outdoor courtyard with brick and stone paving and multi-unit buildings.",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_panel_assessment/t0130.jpg"
+    },
+    {
+      "t": 140,
+      "label": "Visual snapshot @ 140s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_panel_assessment/t0140.jpg"
+    },
+    {
+      "t": 145,
+      "label": "Vehicle Identification",
+      "detail": "White 'Landers Electric' van parked on the street.",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_panel_assessment/t0140.jpg"
+    },
+    {
+      "t": 147,
+      "label": "Action",
+      "detail": "Unlocking and opening the driver's side door of the van.",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_panel_assessment/t0140.jpg"
+    },
+    {
+      "t": 149,
+      "label": "Person",
+      "detail": "Electrician, wearing a safety vest and cap, seated in the van, talking about project next steps.",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_panel_assessment/t0140.jpg"
+    }
+  ],
+  "video_path": "/Users/vvvakho/Documents/Code/field-notes/data/videos/job_panel_assessment.mp4",
+  "media": {
+    "original_bytes": 12567694,
+    "compressed_bytes": 7108540,
+    "frame_count": 15
+  },
+  "status": "ready",
+  "index_chunks": [
+    {
+      "chunk_id": "job_panel_assessment:summary",
+      "note_id": "job_panel_assessment",
+      "t": 0,
+      "kind": "summary",
+      "text": "The video shows an electrician inspecting rusted electrical panels and meters at a property. He identifies copper wiring and discusses the amperage capacity. Later, he enters a basement with a colleague to inspect larger panels and an old boiler. The video concludes with the electrician driving away in his 'Landers Electric' van, discussing the next steps for the project and an upcoming material check."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:0",
+      "note_id": "job_panel_assessment",
+      "t": 0,
+      "kind": "transcript",
+      "text": "There we go."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:6",
+      "note_id": "job_panel_assessment",
+      "t": 6,
+      "kind": "transcript",
+      "text": "I mean, they look like number"
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:12",
+      "note_id": "job_panel_assessment",
+      "t": 12,
+      "kind": "transcript",
+      "text": "Oh, goodness."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:14",
+      "note_id": "job_panel_assessment",
+      "t": 14,
+      "kind": "transcript",
+      "text": "Maybe number two's."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:16",
+      "note_id": "job_panel_assessment",
+      "t": 16,
+      "kind": "transcript",
+      "text": "What do you think? Is there any writing over here?"
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:18",
+      "note_id": "job_panel_assessment",
+      "t": 18,
+      "kind": "transcript",
+      "text": "No."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:20",
+      "note_id": "job_panel_assessment",
+      "t": 20,
+      "kind": "transcript",
+      "text": "I mean, these are definitely two's right here."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:23",
+      "note_id": "job_panel_assessment",
+      "t": 23,
+      "kind": "transcript",
+      "text": "And it's copper, that's good."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:25",
+      "note_id": "job_panel_assessment",
+      "t": 25,
+      "kind": "transcript",
+      "text": "This is not aluminum."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:26",
+      "note_id": "job_panel_assessment",
+      "t": 26,
+      "kind": "transcript",
+      "text": "As in my role, right? Like"
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:28",
+      "note_id": "job_panel_assessment",
+      "t": 28,
+      "kind": "transcript",
+      "text": "Yeah."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:30",
+      "note_id": "job_panel_assessment",
+      "t": 30,
+      "kind": "transcript",
+      "text": "making sure that if this is if these are number two's, then, you know, number uh sorry, 30 amp is adequate. And obviously it is."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:37",
+      "note_id": "job_panel_assessment",
+      "t": 37,
+      "kind": "transcript",
+      "text": "Right."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:38",
+      "note_id": "job_panel_assessment",
+      "t": 38,
+      "kind": "transcript",
+      "text": "Definitely."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:38",
+      "note_id": "job_panel_assessment",
+      "t": 38,
+      "kind": "transcript",
+      "text": "It's good. I mean, we're not looking at something that could potentially not be good for voltage draw or something."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:44",
+      "note_id": "job_panel_assessment",
+      "t": 44,
+      "kind": "transcript",
+      "text": "Dom, are are units 311 and 313 bigger units?"
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:48",
+      "note_id": "job_panel_assessment",
+      "t": 48,
+      "kind": "transcript",
+      "text": "I mean, they're over on this side."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:50",
+      "note_id": "job_panel_assessment",
+      "t": 50,
+      "kind": "transcript",
+      "text": "Maybe a little bit. Maybe we get into one of them."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:53",
+      "note_id": "job_panel_assessment",
+      "t": 53,
+      "kind": "transcript",
+      "text": "Okay."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:54",
+      "note_id": "job_panel_assessment",
+      "t": 54,
+      "kind": "transcript",
+      "text": "Yeah, we can go check this up."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:66",
+      "note_id": "job_panel_assessment",
+      "t": 66,
+      "kind": "transcript",
+      "text": "Go down, down, down."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:69",
+      "note_id": "job_panel_assessment",
+      "t": 69,
+      "kind": "transcript",
+      "text": "Whoa."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:71",
+      "note_id": "job_panel_assessment",
+      "t": 71,
+      "kind": "transcript",
+      "text": "This looks this looks perfect."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:73",
+      "note_id": "job_panel_assessment",
+      "t": 73,
+      "kind": "transcript",
+      "text": "Wow."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:73",
+      "note_id": "job_panel_assessment",
+      "t": 73,
+      "kind": "transcript",
+      "text": "There it is."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:75",
+      "note_id": "job_panel_assessment",
+      "t": 75,
+      "kind": "transcript",
+      "text": "So they are bigger."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:77",
+      "note_id": "job_panel_assessment",
+      "t": 77,
+      "kind": "transcript",
+      "text": "Yeah."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:78",
+      "note_id": "job_panel_assessment",
+      "t": 78,
+      "kind": "transcript",
+      "text": "So we're good on these ones."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:82",
+      "note_id": "job_panel_assessment",
+      "t": 82,
+      "kind": "transcript",
+      "text": "That tank. A boiler? That's the old boiler?"
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:86",
+      "note_id": "job_panel_assessment",
+      "t": 86,
+      "kind": "transcript",
+      "text": "Yeah, it's probably the top three weird ones I've seen."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:92",
+      "note_id": "job_panel_assessment",
+      "t": 92,
+      "kind": "transcript",
+      "text": "Not number one I've seen."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:93",
+      "note_id": "job_panel_assessment",
+      "t": 93,
+      "kind": "transcript",
+      "text": "That's awesome."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:104",
+      "note_id": "job_panel_assessment",
+      "t": 104,
+      "kind": "transcript",
+      "text": "Out of the choky room."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:107",
+      "note_id": "job_panel_assessment",
+      "t": 107,
+      "kind": "transcript",
+      "text": "All right, so you got what you need."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:109",
+      "note_id": "job_panel_assessment",
+      "t": 109,
+      "kind": "transcript",
+      "text": "I think so. Is there anything that you questions on or"
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:113",
+      "note_id": "job_panel_assessment",
+      "t": 113,
+      "kind": "transcript",
+      "text": "No."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:114",
+      "note_id": "job_panel_assessment",
+      "t": 114,
+      "kind": "transcript",
+      "text": "Just here to get the drawings and then"
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:116",
+      "note_id": "job_panel_assessment",
+      "t": 116,
+      "kind": "transcript",
+      "text": "Yeah."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:117",
+      "note_id": "job_panel_assessment",
+      "t": 117,
+      "kind": "transcript",
+      "text": "get you a quote Dom and we'll try and"
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:119",
+      "note_id": "job_panel_assessment",
+      "t": 119,
+      "kind": "transcript",
+      "text": "get it done."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:124",
+      "note_id": "job_panel_assessment",
+      "t": 124,
+      "kind": "transcript",
+      "text": "Well, that was an interesting one."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:126",
+      "note_id": "job_panel_assessment",
+      "t": 126,
+      "kind": "transcript",
+      "text": "So, where we're at is they're gonna have the engineer design all the drawings now that they have everything they need."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:133",
+      "note_id": "job_panel_assessment",
+      "t": 133,
+      "kind": "transcript",
+      "text": "And they'll send that over to Dom and then and who he will probably ask me for a quote."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:141",
+      "note_id": "job_panel_assessment",
+      "t": 141,
+      "kind": "transcript",
+      "text": "And as long as we land it, then we'll get to move on that one."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:144",
+      "note_id": "job_panel_assessment",
+      "t": 144,
+      "kind": "transcript",
+      "text": "So, I'm gonna head up north. We're gonna go hit Oceanside."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:149",
+      "note_id": "job_panel_assessment",
+      "t": 149,
+      "kind": "transcript",
+      "text": "And we're gonna hit um the apartment that we're remodeling. And on the way, I have to stop by and talk with Scott."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:158",
+      "note_id": "job_panel_assessment",
+      "t": 158,
+      "kind": "transcript",
+      "text": "He's uh from Regency supply and he's bringing me a a piece of wire because I wanted to see there's a Oncor wire that they use."
+    },
+    {
+      "chunk_id": "job_panel_assessment:tr:169",
+      "note_id": "job_panel_assessment",
+      "t": 169,
+      "kind": "transcript",
+      "text": "And I want to check it out and see uh see how good the wire is, what the installation looks like. So I'm gonna stop by"
+    },
+    {
+      "chunk_id": "job_panel_assessment:fr:0:Action",
+      "note_id": "job_panel_assessment",
+      "t": 0,
+      "kind": "frame",
+      "text": "Action — Opening a rusted electrical panel"
+    },
+    {
+      "chunk_id": "job_panel_assessment:fr:4:Equipment Inspection",
+      "note_id": "job_panel_assessment",
+      "t": 4,
+      "kind": "frame",
+      "text": "Equipment Inspection — Rusted electrical panel with internal components visible. Panel IDs '313' and '311' are visible."
+    },
+    {
+      "chunk_id": "job_panel_assessment:fr:10:Visual snapshot @ 10s",
+      "note_id": "job_panel_assessment",
+      "t": 10,
+      "kind": "frame",
+      "text": "Visual snapshot @ 10s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_panel_assessment:fr:15:Material Identification",
+      "note_id": "job_panel_assessment",
+      "t": 15,
+      "kind": "frame",
+      "text": "Material Identification — Person points to copper wiring inside the electrical panel."
+    },
+    {
+      "chunk_id": "job_panel_assessment:fr:20:Visual snapshot @ 20s",
+      "note_id": "job_panel_assessment",
+      "t": 20,
+      "kind": "frame",
+      "text": "Visual snapshot @ 20s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_panel_assessment:fr:26:Equipment Detail",
+      "note_id": "job_panel_assessment",
+      "t": 26,
+      "kind": "frame",
+      "text": "Equipment Detail — Close-up of exposed electrical components and wiring."
+    },
+    {
+      "chunk_id": "job_panel_assessment:fr:30:Visual snapshot @ 30s",
+      "note_id": "job_panel_assessment",
+      "t": 30,
+      "kind": "frame",
+      "text": "Visual snapshot @ 30s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_panel_assessment:fr:40:Visual snapshot @ 40s",
+      "note_id": "job_panel_assessment",
+      "t": 40,
+      "kind": "frame",
+      "text": "Visual snapshot @ 40s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_panel_assessment:fr:45:Equipment Inspection",
+      "note_id": "job_panel_assessment",
+      "t": 45,
+      "kind": "frame",
+      "text": "Equipment Inspection — Wider shot of three electrical meters and two open electrical panels, showing unit IDs."
+    },
+    {
+      "chunk_id": "job_panel_assessment:fr:50:Visual snapshot @ 50s",
+      "note_id": "job_panel_assessment",
+      "t": 50,
+      "kind": "frame",
+      "text": "Visual snapshot @ 50s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_panel_assessment:fr:57:Action",
+      "note_id": "job_panel_assessment",
+      "t": 57,
+      "kind": "frame",
+      "text": "Action — Closing electrical panel with a screwdriver"
+    },
+    {
+      "chunk_id": "job_panel_assessment:fr:60:Visual snapshot @ 60s",
+      "note_id": "job_panel_assessment",
+      "t": 60,
+      "kind": "frame",
+      "text": "Visual snapshot @ 60s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_panel_assessment:fr:70:Visual snapshot @ 70s",
+      "note_id": "job_panel_assessment",
+      "t": 70,
+      "kind": "frame",
+      "text": "Visual snapshot @ 70s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_panel_assessment:fr:80:Visual snapshot @ 80s",
+      "note_id": "job_panel_assessment",
+      "t": 80,
+      "kind": "frame",
+      "text": "Visual snapshot @ 80s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_panel_assessment:fr:90:Visual snapshot @ 90s",
+      "note_id": "job_panel_assessment",
+      "t": 90,
+      "kind": "frame",
+      "text": "Visual snapshot @ 90s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_panel_assessment:fr:100:Location Transition",
+      "note_id": "job_panel_assessment",
+      "t": 100,
+      "kind": "frame",
+      "text": "Location Transition — Two people entering a dark, cluttered basement through a low doorway."
+    },
+    {
+      "chunk_id": "job_panel_assessment:fr:111:Equipment Inspection",
+      "note_id": "job_panel_assessment",
+      "t": 111,
+      "kind": "frame",
+      "text": "Equipment Inspection — Man points to larger electrical panels inside the basement."
+    },
+    {
+      "chunk_id": "job_panel_assessment:fr:118:Equipment Observation",
+      "note_id": "job_panel_assessment",
+      "t": 118,
+      "kind": "frame",
+      "text": "Equipment Observation — An old boiler/tank is visible in the cluttered basement."
+    },
+    {
+      "chunk_id": "job_panel_assessment:fr:126:Location Transition",
+      "note_id": "job_panel_assessment",
+      "t": 126,
+      "kind": "frame",
+      "text": "Location Transition — Walking out of the basement and closing the door."
+    },
+    {
+      "chunk_id": "job_panel_assessment:fr:130:Visual snapshot @ 130s",
+      "note_id": "job_panel_assessment",
+      "t": 130,
+      "kind": "frame",
+      "text": "Visual snapshot @ 130s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_panel_assessment:fr:135:Location",
+      "note_id": "job_panel_assessment",
+      "t": 135,
+      "kind": "frame",
+      "text": "Location — View of an outdoor courtyard with brick and stone paving and multi-unit buildings."
+    },
+    {
+      "chunk_id": "job_panel_assessment:fr:140:Visual snapshot @ 140s",
+      "note_id": "job_panel_assessment",
+      "t": 140,
+      "kind": "frame",
+      "text": "Visual snapshot @ 140s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_panel_assessment:fr:145:Vehicle Identification",
+      "note_id": "job_panel_assessment",
+      "t": 145,
+      "kind": "frame",
+      "text": "Vehicle Identification — White 'Landers Electric' van parked on the street."
+    },
+    {
+      "chunk_id": "job_panel_assessment:fr:147:Action",
+      "note_id": "job_panel_assessment",
+      "t": 147,
+      "kind": "frame",
+      "text": "Action — Unlocking and opening the driver's side door of the van."
+    },
+    {
+      "chunk_id": "job_panel_assessment:fr:149:Person",
+      "note_id": "job_panel_assessment",
+      "t": 149,
+      "kind": "frame",
+      "text": "Person — Electrician, wearing a safety vest and cap, seated in the van, talking about project next steps."
+    }
+  ]
+}

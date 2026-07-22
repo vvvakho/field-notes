@@ -1,0 +1,1149 @@
+{
+  "note_id": "job_sandiego_upgrade",
+  "created_at": "2026-07-22T15:41:10.214Z",
+  "title": "San Diego panel upgrade",
+  "demo_label": "Example from the job",
+  "sensors": {
+    "captured_at": "2026-07-21T16:30:00.000Z",
+    "timezone_offset_minutes": -240,
+    "geo": {
+      "latitude": 32.7157,
+      "longitude": -117.1611,
+      "altitude": null,
+      "accuracy": 12,
+      "heading": null,
+      "speed": 0
+    },
+    "device": {
+      "brand": "Apple",
+      "model_name": "Demo",
+      "os_name": "iOS",
+      "os_version": "18"
+    }
+  },
+  "summary": "The operator is installing rigid conduit. They start by removing existing conduit and identifying a coupling. They then measure, cut, and deburr new conduit, attaching couplings before installing it into the electrical panel. They use various hand tools and a power saw for the task.",
+  "transcript": [
+    {
+      "t": 0,
+      "text": "rigged off of here."
+    },
+    {
+      "t": 1,
+      "text": "Let's get our big Channies."
+    },
+    {
+      "t": 2,
+      "text": "There's a coupling"
+    },
+    {
+      "t": 5,
+      "text": "right down there,"
+    },
+    {
+      "t": 6,
+      "text": "which is actually super helpful."
+    },
+    {
+      "t": 16,
+      "text": "Still treat them like they're hot, cuz"
+    },
+    {
+      "t": 19,
+      "text": "never know, man."
+    },
+    {
+      "t": 20,
+      "text": "Never know."
+    },
+    {
+      "t": 22,
+      "text": "go."
+    },
+    {
+      "t": 22,
+      "text": "If you can see,"
+    },
+    {
+      "t": 26,
+      "text": "did the knockout is offset."
+    },
+    {
+      "t": 29,
+      "text": "That one was center."
+    },
+    {
+      "t": 30,
+      "text": "What we do here,"
+    },
+    {
+      "t": 32,
+      "text": "is I ordered this from Walters"
+    },
+    {
+      "t": 35,
+      "text": "like this with an offset in it."
+    },
+    {
+      "t": 39,
+      "text": "They pre-fab bend it for me exactly where I need it."
+    },
+    {
+      "t": 45,
+      "text": "Then all I got to do is cut it to my length, put some couplings on it and walk away."
+    },
+    {
+      "t": 48,
+      "text": "So,"
+    },
+    {
+      "t": 50,
+      "text": "it's pretty cool."
+    },
+    {
+      "t": 51,
+      "text": "We do have to cut this though."
+    },
+    {
+      "t": 53,
+      "text": "This is going to be in our way."
+    },
+    {
+      "t": 56,
+      "text": "There's our rigid."
+    },
+    {
+      "t": 58,
+      "text": "I don't know if we're going to be able to uh"
+    },
+    {
+      "t": 105,
+      "text": "Get that from the right angle there."
+    },
+    {
+      "t": 110,
+      "text": "There it went."
+    },
+    {
+      "t": 112,
+      "text": "Looks like that."
+    },
+    {
+      "t": 116,
+      "text": "There we go."
+    },
+    {
+      "t": 117,
+      "text": "I don't know if we're going to be able to get that offset in that tight of a spot."
+    },
+    {
+      "t": 122,
+      "text": "16 inches."
+    },
+    {
+      "t": 124,
+      "text": "I could do 18 inches."
+    },
+    {
+      "t": 125,
+      "text": "See if we can get that."
+    },
+    {
+      "t": 127,
+      "text": "We're going to have to cut it like uh right there and there."
+    },
+    {
+      "t": 131,
+      "text": "Put a coupling on it."
+    },
+    {
+      "t": 132,
+      "text": "Right there."
+    },
+    {
+      "t": 134,
+      "text": "18 inches right there."
+    },
+    {
+      "t": 135,
+      "text": "I probably go a little shy of that."
+    },
+    {
+      "t": 142,
+      "text": "It's all right."
+    },
+    {
+      "t": 150,
+      "text": "There it is."
+    },
+    {
+      "t": 154,
+      "text": "So we don't have any sharp edges on there."
+    },
+    {
+      "t": 158,
+      "text": "Let's double check it."
+    },
+    {
+      "t": 160,
+      "text": "Okay."
+    },
+    {
+      "t": 202,
+      "text": "We have our rigid coupling and connector."
+    },
+    {
+      "t": 208,
+      "text": "There's one side."
+    },
+    {
+      "t": 218,
+      "text": "Just the panel side."
+    },
+    {
+      "t": 219,
+      "text": "Oh."
+    },
+    {
+      "t": 221,
+      "text": "Don't mess it up, Steven. Come on."
+    },
+    {
+      "t": 227,
+      "text": "Let's go this way."
+    },
+    {
+      "t": 234,
+      "text": "One side."
+    },
+    {
+      "t": 239,
+      "text": "There it is."
+    },
+    {
+      "t": 240,
+      "text": "There's our piece."
+    },
+    {
+      "t": 249,
+      "text": "Like I said, I was saying there's threads, but like I said, it will still grab."
+    },
+    {
+      "t": 254,
+      "text": "I've done it a million times and I'm not chancing accidentally cutting through that wire."
+    },
+    {
+      "t": 259,
+      "text": "So we'll get this on here."
+    },
+    {
+      "t": 260,
+      "text": "We are going to the right side crack."
+    },
+    {
+      "t": 269,
+      "text": "No, we're going to the left."
+    },
+    {
+      "t": 270,
+      "text": "Other way."
+    },
+    {
+      "t": 270,
+      "text": "Other way, buddy."
+    }
+  ],
+  "events": [
+    {
+      "t": 0,
+      "label": "Tool Used",
+      "detail": "Channellock pliers",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0000.jpg"
+    },
+    {
+      "t": 1,
+      "label": "Action",
+      "detail": "Removing rigid conduit",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0000.jpg"
+    },
+    {
+      "t": 2,
+      "label": "Object Identified",
+      "detail": "Coupling for conduit",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0000.jpg"
+    },
+    {
+      "t": 10,
+      "label": "Visual snapshot @ 10s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0010.jpg"
+    },
+    {
+      "t": 20,
+      "label": "Visual snapshot @ 20s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0020.jpg"
+    },
+    {
+      "t": 25,
+      "label": "Observation",
+      "detail": "Knockout is offset on electrical panel",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0020.jpg"
+    },
+    {
+      "t": 30,
+      "label": "Visual snapshot @ 30s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0030.jpg"
+    },
+    {
+      "t": 35,
+      "label": "Object Shown",
+      "detail": "Pre-bent rigid conduit with offset",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0030.jpg"
+    },
+    {
+      "t": 40,
+      "label": "Visual snapshot @ 40s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0040.jpg"
+    },
+    {
+      "t": 45,
+      "label": "Task Description",
+      "detail": "Cut conduit to length and add couplings",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0040.jpg"
+    },
+    {
+      "t": 50,
+      "label": "Visual snapshot @ 50s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0050.jpg"
+    },
+    {
+      "t": 56,
+      "label": "Object Identified",
+      "detail": "Rigid conduit inside wall",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0060.jpg"
+    },
+    {
+      "t": 60,
+      "label": "Visual snapshot @ 60s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0060.jpg"
+    },
+    {
+      "t": 70,
+      "label": "Visual snapshot @ 70s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0070.jpg"
+    },
+    {
+      "t": 80,
+      "label": "Visual snapshot @ 80s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0080.jpg"
+    },
+    {
+      "t": 90,
+      "label": "Visual snapshot @ 90s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0090.jpg"
+    },
+    {
+      "t": 100,
+      "label": "Visual snapshot @ 100s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0100.jpg"
+    },
+    {
+      "t": 110,
+      "label": "Visual snapshot @ 110s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0110.jpg"
+    },
+    {
+      "t": 118,
+      "label": "Measurement",
+      "detail": "Conduit section measured at 16 inches",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0120.jpg"
+    },
+    {
+      "t": 124,
+      "label": "Measurement",
+      "detail": "Considered 18 inches for conduit section",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0120.jpg"
+    },
+    {
+      "t": 127,
+      "label": "Action",
+      "detail": "Marking conduit for cutting",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0130.jpg"
+    },
+    {
+      "t": 130,
+      "label": "Visual snapshot @ 130s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0130.jpg"
+    },
+    {
+      "t": 134,
+      "label": "Measurement",
+      "detail": "Marking conduit at 18 inches",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0130.jpg"
+    },
+    {
+      "t": 139,
+      "label": "Tool Used",
+      "detail": "Power saw (band saw) to cut conduit",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0140.jpg"
+    },
+    {
+      "t": 150,
+      "label": "Action",
+      "detail": "Cut conduit piece shown",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0150.jpg"
+    },
+    {
+      "t": 152,
+      "label": "Tool Used",
+      "detail": "File for deburring conduit",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0150.jpg"
+    },
+    {
+      "t": 154,
+      "label": "Task Action",
+      "detail": "Deburring conduit to remove sharp edges",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0150.jpg"
+    },
+    {
+      "t": 160,
+      "label": "Visual snapshot @ 160s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0160.jpg"
+    },
+    {
+      "t": 170,
+      "label": "Visual snapshot @ 170s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0170.jpg"
+    },
+    {
+      "t": 180,
+      "label": "Visual snapshot @ 180s",
+      "frame_hint": "Sparse keyframe from capture",
+      "frame_image": "/Users/vvvakho/Documents/Code/field-notes/data/frames/job_sandiego_upgrade/t0180.jpg"
+    },
+    {
+      "t": 204,
+      "label": "Tool Used",
+      "detail": "Rigid coupling and connector for conduit"
+    },
+    {
+      "t": 218,
+      "label": "Location Identified",
+      "detail": "Panel side of conduit"
+    },
+    {
+      "t": 227,
+      "label": "Tool Used",
+      "detail": "Wrenches to tighten coupling"
+    },
+    {
+      "t": 240,
+      "label": "Action",
+      "detail": "Inserting new conduit piece into existing conduit"
+    },
+    {
+      "t": 254,
+      "label": "Safety Concern",
+      "detail": "Avoiding cutting electrical wires"
+    },
+    {
+      "t": 262,
+      "label": "Location Identified",
+      "detail": "Outdoor area with equipment"
+    }
+  ],
+  "video_path": "/Users/vvvakho/Documents/Code/field-notes/data/videos/job_sandiego_upgrade.mp4",
+  "media": {
+    "original_bytes": 10918060,
+    "compressed_bytes": 10918060,
+    "frame_count": 19
+  },
+  "status": "ready",
+  "index_chunks": [
+    {
+      "chunk_id": "job_sandiego_upgrade:summary",
+      "note_id": "job_sandiego_upgrade",
+      "t": 0,
+      "kind": "summary",
+      "text": "The operator is installing rigid conduit. They start by removing existing conduit and identifying a coupling. They then measure, cut, and deburr new conduit, attaching couplings before installing it into the electrical panel. They use various hand tools and a power saw for the task."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:0",
+      "note_id": "job_sandiego_upgrade",
+      "t": 0,
+      "kind": "transcript",
+      "text": "rigged off of here."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:1",
+      "note_id": "job_sandiego_upgrade",
+      "t": 1,
+      "kind": "transcript",
+      "text": "Let's get our big Channies."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:2",
+      "note_id": "job_sandiego_upgrade",
+      "t": 2,
+      "kind": "transcript",
+      "text": "There's a coupling"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:5",
+      "note_id": "job_sandiego_upgrade",
+      "t": 5,
+      "kind": "transcript",
+      "text": "right down there,"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:6",
+      "note_id": "job_sandiego_upgrade",
+      "t": 6,
+      "kind": "transcript",
+      "text": "which is actually super helpful."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:16",
+      "note_id": "job_sandiego_upgrade",
+      "t": 16,
+      "kind": "transcript",
+      "text": "Still treat them like they're hot, cuz"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:19",
+      "note_id": "job_sandiego_upgrade",
+      "t": 19,
+      "kind": "transcript",
+      "text": "never know, man."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:20",
+      "note_id": "job_sandiego_upgrade",
+      "t": 20,
+      "kind": "transcript",
+      "text": "Never know."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:22",
+      "note_id": "job_sandiego_upgrade",
+      "t": 22,
+      "kind": "transcript",
+      "text": "go."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:22",
+      "note_id": "job_sandiego_upgrade",
+      "t": 22,
+      "kind": "transcript",
+      "text": "If you can see,"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:26",
+      "note_id": "job_sandiego_upgrade",
+      "t": 26,
+      "kind": "transcript",
+      "text": "did the knockout is offset."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:29",
+      "note_id": "job_sandiego_upgrade",
+      "t": 29,
+      "kind": "transcript",
+      "text": "That one was center."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:30",
+      "note_id": "job_sandiego_upgrade",
+      "t": 30,
+      "kind": "transcript",
+      "text": "What we do here,"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:32",
+      "note_id": "job_sandiego_upgrade",
+      "t": 32,
+      "kind": "transcript",
+      "text": "is I ordered this from Walters"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:35",
+      "note_id": "job_sandiego_upgrade",
+      "t": 35,
+      "kind": "transcript",
+      "text": "like this with an offset in it."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:39",
+      "note_id": "job_sandiego_upgrade",
+      "t": 39,
+      "kind": "transcript",
+      "text": "They pre-fab bend it for me exactly where I need it."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:45",
+      "note_id": "job_sandiego_upgrade",
+      "t": 45,
+      "kind": "transcript",
+      "text": "Then all I got to do is cut it to my length, put some couplings on it and walk away."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:48",
+      "note_id": "job_sandiego_upgrade",
+      "t": 48,
+      "kind": "transcript",
+      "text": "So,"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:50",
+      "note_id": "job_sandiego_upgrade",
+      "t": 50,
+      "kind": "transcript",
+      "text": "it's pretty cool."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:51",
+      "note_id": "job_sandiego_upgrade",
+      "t": 51,
+      "kind": "transcript",
+      "text": "We do have to cut this though."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:53",
+      "note_id": "job_sandiego_upgrade",
+      "t": 53,
+      "kind": "transcript",
+      "text": "This is going to be in our way."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:56",
+      "note_id": "job_sandiego_upgrade",
+      "t": 56,
+      "kind": "transcript",
+      "text": "There's our rigid."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:58",
+      "note_id": "job_sandiego_upgrade",
+      "t": 58,
+      "kind": "transcript",
+      "text": "I don't know if we're going to be able to uh"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:105",
+      "note_id": "job_sandiego_upgrade",
+      "t": 105,
+      "kind": "transcript",
+      "text": "Get that from the right angle there."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:110",
+      "note_id": "job_sandiego_upgrade",
+      "t": 110,
+      "kind": "transcript",
+      "text": "There it went."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:112",
+      "note_id": "job_sandiego_upgrade",
+      "t": 112,
+      "kind": "transcript",
+      "text": "Looks like that."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:116",
+      "note_id": "job_sandiego_upgrade",
+      "t": 116,
+      "kind": "transcript",
+      "text": "There we go."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:117",
+      "note_id": "job_sandiego_upgrade",
+      "t": 117,
+      "kind": "transcript",
+      "text": "I don't know if we're going to be able to get that offset in that tight of a spot."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:122",
+      "note_id": "job_sandiego_upgrade",
+      "t": 122,
+      "kind": "transcript",
+      "text": "16 inches."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:124",
+      "note_id": "job_sandiego_upgrade",
+      "t": 124,
+      "kind": "transcript",
+      "text": "I could do 18 inches."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:125",
+      "note_id": "job_sandiego_upgrade",
+      "t": 125,
+      "kind": "transcript",
+      "text": "See if we can get that."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:127",
+      "note_id": "job_sandiego_upgrade",
+      "t": 127,
+      "kind": "transcript",
+      "text": "We're going to have to cut it like uh right there and there."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:131",
+      "note_id": "job_sandiego_upgrade",
+      "t": 131,
+      "kind": "transcript",
+      "text": "Put a coupling on it."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:132",
+      "note_id": "job_sandiego_upgrade",
+      "t": 132,
+      "kind": "transcript",
+      "text": "Right there."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:134",
+      "note_id": "job_sandiego_upgrade",
+      "t": 134,
+      "kind": "transcript",
+      "text": "18 inches right there."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:135",
+      "note_id": "job_sandiego_upgrade",
+      "t": 135,
+      "kind": "transcript",
+      "text": "I probably go a little shy of that."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:142",
+      "note_id": "job_sandiego_upgrade",
+      "t": 142,
+      "kind": "transcript",
+      "text": "It's all right."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:150",
+      "note_id": "job_sandiego_upgrade",
+      "t": 150,
+      "kind": "transcript",
+      "text": "There it is."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:154",
+      "note_id": "job_sandiego_upgrade",
+      "t": 154,
+      "kind": "transcript",
+      "text": "So we don't have any sharp edges on there."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:158",
+      "note_id": "job_sandiego_upgrade",
+      "t": 158,
+      "kind": "transcript",
+      "text": "Let's double check it."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:160",
+      "note_id": "job_sandiego_upgrade",
+      "t": 160,
+      "kind": "transcript",
+      "text": "Okay."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:202",
+      "note_id": "job_sandiego_upgrade",
+      "t": 202,
+      "kind": "transcript",
+      "text": "We have our rigid coupling and connector."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:208",
+      "note_id": "job_sandiego_upgrade",
+      "t": 208,
+      "kind": "transcript",
+      "text": "There's one side."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:218",
+      "note_id": "job_sandiego_upgrade",
+      "t": 218,
+      "kind": "transcript",
+      "text": "Just the panel side."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:219",
+      "note_id": "job_sandiego_upgrade",
+      "t": 219,
+      "kind": "transcript",
+      "text": "Oh."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:221",
+      "note_id": "job_sandiego_upgrade",
+      "t": 221,
+      "kind": "transcript",
+      "text": "Don't mess it up, Steven. Come on."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:227",
+      "note_id": "job_sandiego_upgrade",
+      "t": 227,
+      "kind": "transcript",
+      "text": "Let's go this way."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:234",
+      "note_id": "job_sandiego_upgrade",
+      "t": 234,
+      "kind": "transcript",
+      "text": "One side."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:239",
+      "note_id": "job_sandiego_upgrade",
+      "t": 239,
+      "kind": "transcript",
+      "text": "There it is."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:240",
+      "note_id": "job_sandiego_upgrade",
+      "t": 240,
+      "kind": "transcript",
+      "text": "There's our piece."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:249",
+      "note_id": "job_sandiego_upgrade",
+      "t": 249,
+      "kind": "transcript",
+      "text": "Like I said, I was saying there's threads, but like I said, it will still grab."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:254",
+      "note_id": "job_sandiego_upgrade",
+      "t": 254,
+      "kind": "transcript",
+      "text": "I've done it a million times and I'm not chancing accidentally cutting through that wire."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:259",
+      "note_id": "job_sandiego_upgrade",
+      "t": 259,
+      "kind": "transcript",
+      "text": "So we'll get this on here."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:260",
+      "note_id": "job_sandiego_upgrade",
+      "t": 260,
+      "kind": "transcript",
+      "text": "We are going to the right side crack."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:269",
+      "note_id": "job_sandiego_upgrade",
+      "t": 269,
+      "kind": "transcript",
+      "text": "No, we're going to the left."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:270",
+      "note_id": "job_sandiego_upgrade",
+      "t": 270,
+      "kind": "transcript",
+      "text": "Other way."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:tr:270",
+      "note_id": "job_sandiego_upgrade",
+      "t": 270,
+      "kind": "transcript",
+      "text": "Other way, buddy."
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:0:Tool Used",
+      "note_id": "job_sandiego_upgrade",
+      "t": 0,
+      "kind": "frame",
+      "text": "Tool Used — Channellock pliers"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:1:Action",
+      "note_id": "job_sandiego_upgrade",
+      "t": 1,
+      "kind": "frame",
+      "text": "Action — Removing rigid conduit"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:2:Object Identified",
+      "note_id": "job_sandiego_upgrade",
+      "t": 2,
+      "kind": "frame",
+      "text": "Object Identified — Coupling for conduit"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:10:Visual snapshot @ 10s",
+      "note_id": "job_sandiego_upgrade",
+      "t": 10,
+      "kind": "frame",
+      "text": "Visual snapshot @ 10s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:20:Visual snapshot @ 20s",
+      "note_id": "job_sandiego_upgrade",
+      "t": 20,
+      "kind": "frame",
+      "text": "Visual snapshot @ 20s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:25:Observation",
+      "note_id": "job_sandiego_upgrade",
+      "t": 25,
+      "kind": "frame",
+      "text": "Observation — Knockout is offset on electrical panel"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:30:Visual snapshot @ 30s",
+      "note_id": "job_sandiego_upgrade",
+      "t": 30,
+      "kind": "frame",
+      "text": "Visual snapshot @ 30s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:35:Object Shown",
+      "note_id": "job_sandiego_upgrade",
+      "t": 35,
+      "kind": "frame",
+      "text": "Object Shown — Pre-bent rigid conduit with offset"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:40:Visual snapshot @ 40s",
+      "note_id": "job_sandiego_upgrade",
+      "t": 40,
+      "kind": "frame",
+      "text": "Visual snapshot @ 40s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:45:Task Description",
+      "note_id": "job_sandiego_upgrade",
+      "t": 45,
+      "kind": "frame",
+      "text": "Task Description — Cut conduit to length and add couplings"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:50:Visual snapshot @ 50s",
+      "note_id": "job_sandiego_upgrade",
+      "t": 50,
+      "kind": "frame",
+      "text": "Visual snapshot @ 50s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:56:Object Identified",
+      "note_id": "job_sandiego_upgrade",
+      "t": 56,
+      "kind": "frame",
+      "text": "Object Identified — Rigid conduit inside wall"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:60:Visual snapshot @ 60s",
+      "note_id": "job_sandiego_upgrade",
+      "t": 60,
+      "kind": "frame",
+      "text": "Visual snapshot @ 60s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:70:Visual snapshot @ 70s",
+      "note_id": "job_sandiego_upgrade",
+      "t": 70,
+      "kind": "frame",
+      "text": "Visual snapshot @ 70s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:80:Visual snapshot @ 80s",
+      "note_id": "job_sandiego_upgrade",
+      "t": 80,
+      "kind": "frame",
+      "text": "Visual snapshot @ 80s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:90:Visual snapshot @ 90s",
+      "note_id": "job_sandiego_upgrade",
+      "t": 90,
+      "kind": "frame",
+      "text": "Visual snapshot @ 90s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:100:Visual snapshot @ 100s",
+      "note_id": "job_sandiego_upgrade",
+      "t": 100,
+      "kind": "frame",
+      "text": "Visual snapshot @ 100s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:110:Visual snapshot @ 110s",
+      "note_id": "job_sandiego_upgrade",
+      "t": 110,
+      "kind": "frame",
+      "text": "Visual snapshot @ 110s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:118:Measurement",
+      "note_id": "job_sandiego_upgrade",
+      "t": 118,
+      "kind": "frame",
+      "text": "Measurement — Conduit section measured at 16 inches"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:124:Measurement",
+      "note_id": "job_sandiego_upgrade",
+      "t": 124,
+      "kind": "frame",
+      "text": "Measurement — Considered 18 inches for conduit section"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:127:Action",
+      "note_id": "job_sandiego_upgrade",
+      "t": 127,
+      "kind": "frame",
+      "text": "Action — Marking conduit for cutting"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:130:Visual snapshot @ 130s",
+      "note_id": "job_sandiego_upgrade",
+      "t": 130,
+      "kind": "frame",
+      "text": "Visual snapshot @ 130s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:134:Measurement",
+      "note_id": "job_sandiego_upgrade",
+      "t": 134,
+      "kind": "frame",
+      "text": "Measurement — Marking conduit at 18 inches"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:139:Tool Used",
+      "note_id": "job_sandiego_upgrade",
+      "t": 139,
+      "kind": "frame",
+      "text": "Tool Used — Power saw (band saw) to cut conduit"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:150:Action",
+      "note_id": "job_sandiego_upgrade",
+      "t": 150,
+      "kind": "frame",
+      "text": "Action — Cut conduit piece shown"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:152:Tool Used",
+      "note_id": "job_sandiego_upgrade",
+      "t": 152,
+      "kind": "frame",
+      "text": "Tool Used — File for deburring conduit"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:154:Task Action",
+      "note_id": "job_sandiego_upgrade",
+      "t": 154,
+      "kind": "frame",
+      "text": "Task Action — Deburring conduit to remove sharp edges"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:160:Visual snapshot @ 160s",
+      "note_id": "job_sandiego_upgrade",
+      "t": 160,
+      "kind": "frame",
+      "text": "Visual snapshot @ 160s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:170:Visual snapshot @ 170s",
+      "note_id": "job_sandiego_upgrade",
+      "t": 170,
+      "kind": "frame",
+      "text": "Visual snapshot @ 170s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:180:Visual snapshot @ 180s",
+      "note_id": "job_sandiego_upgrade",
+      "t": 180,
+      "kind": "frame",
+      "text": "Visual snapshot @ 180s — Sparse keyframe from capture",
+      "frame_hint": "Sparse keyframe from capture"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:204:Tool Used",
+      "note_id": "job_sandiego_upgrade",
+      "t": 204,
+      "kind": "frame",
+      "text": "Tool Used — Rigid coupling and connector for conduit"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:218:Location Identified",
+      "note_id": "job_sandiego_upgrade",
+      "t": 218,
+      "kind": "frame",
+      "text": "Location Identified — Panel side of conduit"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:227:Tool Used",
+      "note_id": "job_sandiego_upgrade",
+      "t": 227,
+      "kind": "frame",
+      "text": "Tool Used — Wrenches to tighten coupling"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:240:Action",
+      "note_id": "job_sandiego_upgrade",
+      "t": 240,
+      "kind": "frame",
+      "text": "Action — Inserting new conduit piece into existing conduit"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:254:Safety Concern",
+      "note_id": "job_sandiego_upgrade",
+      "t": 254,
+      "kind": "frame",
+      "text": "Safety Concern — Avoiding cutting electrical wires"
+    },
+    {
+      "chunk_id": "job_sandiego_upgrade:fr:262:Location Identified",
+      "note_id": "job_sandiego_upgrade",
+      "t": 262,
+      "kind": "frame",
+      "text": "Location Identified — Outdoor area with equipment"
+    }
+  ]
+}

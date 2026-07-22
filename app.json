@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Field Notes",
+    "slug": "field-notes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Field Notes records site video while you walk and narrate.",
+        "NSMicrophoneUsageDescription": "Field Notes captures your spoken field notes with the video.",
+        "NSLocationWhenInUseUsageDescription": "Field Notes tags captures with GPS for site memory."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0e1114",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ],
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Field Notes to record site video.",
+          "microphonePermission": "Allow Field Notes to capture spoken notes.",
+          "recordAudioAndroid": true
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow Field Notes to tag captures with GPS."
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+# dependencies
+node_modules/
+server/node_modules/
+
+# expo / build
+.expo/
+dist/
+web-build/
+
+# secrets & local env
+.env
+.env.local
+*.pem
+
+# logs / OS
+*.log
+.DS_Store
+Thumbs.db
+
+# runtime / generated (keep curated examples via exceptions below)
+data/costs/*
+!data/costs/.gitkeep
+data/stress/
+
+data/videos/*
+!data/videos/.gitkeep
+!data/videos/job_*.mp4
+
+data/notes/*
+!data/notes/.gitkeep
+!data/notes/job_*.json
+
+data/frames/*
+!data/frames/.gitkeep
+!data/frames/job_*/
+
+# scratch downloads / long source clips
+data/videos/test-*.mp4
+data/videos/phone_sim_*.mp4
+*.raw.mp4
+.claude/
