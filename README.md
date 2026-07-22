@@ -170,7 +170,7 @@ scripts/                Demo reprocess helpers
 
 ## Stack
 
-- **App:** Expo SDK 57, TypeScript, Expo Camera / AV / Location  
+- **App:** Expo SDK 54 (App Store Expo Go compatible), TypeScript, Expo Camera / AV / Location  
 - **API:** Hono, `@google/genai` on **Vertex AI**, ffmpeg  
 - **Retrieval:** lexical chunk bank (embeddings later)  
 

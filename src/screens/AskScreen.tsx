@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import {
   ActivityIndicator,
   Image,
@@ -139,7 +139,10 @@ export function AskScreen({ notes }: Props) {
 
 function CitationCard({ citation }: { citation: AskCitation }) {
   const videoRef = useRef<Video>(null);
+  const [showPlayer, setShowPlayer] = useState(false);
   const [playing, setPlaying] = useState(false);
+  const [busy, setBusy] = useState(false);
+  const [playError, setPlayError] = useState<string | null>(null);
   const mm = Math.floor(citation.t / 60)
     .toString()
     .padStart(2, '0');
@@ -151,16 +154,82 @@ function CitationCard({ citation }: { citation: AskCitation }) {
       ? citation.media_url
       : `${API_URL}${citation.media_url}`
     : null;
+  const frameUri = citation.frame_image_url
+    ? citation.frame_image_url.startsWith('http')
+      ? citation.frame_image_url
+      : `${API_URL}${citation.frame_image_url}`
+    : null;
+  const startMs = Math.max(0, Math.floor(citation.t - 0.5) * 1000);
 
-  async function togglePlay() {
-    if (!mediaUri || !videoRef.current) return;
-    if (!playing) {
-      await videoRef.current.setPositionAsync(Math.max(0, citation.t - 0.5) * 1000);
-      await videoRef.current.playAsync();
-      setPlaying(true);
-    } else {
-      await videoRef.current.pauseAsync();
+  useEffect(() => {
+    if (!showPlayer || !mediaUri) return;
+    let cancelled = false;
+
+    (async () => {
+      setBusy(true);
+      setPlayError(null);
+      try {
+        // Mount + first layout before driving AVPlayer.
+        await new Promise((r) => setTimeout(r, 120));
+        if (cancelled || !videoRef.current) return;
+        await videoRef.current.loadAsync(
+          { uri: mediaUri },
+          { shouldPlay: true, positionMillis: startMs },
+          false,
+        );
+        if (!cancelled) setPlaying(true);
+      } catch (err) {
+        if (!cancelled) {
+          setPlayError(err instanceof Error ? err.message : 'Playback failed');
+          setPlaying(false);
+        }
+      } finally {
+        if (!cancelled) setBusy(false);
+      }
+    })();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [showPlayer, mediaUri, startMs]);
+
+  async function onPlayPress() {
+    if (!mediaUri || busy) return;
+    if (!showPlayer) {
+      setShowPlayer(true);
+      return;
+    }
+    if (playing) {
+      try {
+        await videoRef.current?.pauseAsync();
+      } catch {
+        // ignore
+      }
       setPlaying(false);
+      return;
+    }
+    setBusy(true);
+    setPlayError(null);
+    try {
+      const player = videoRef.current;
+      if (!player) throw new Error('Player not ready');
+      const status = await player.getStatusAsync();
+      if (!status.isLoaded) {
+        await player.loadAsync(
+          { uri: mediaUri },
+          { shouldPlay: true, positionMillis: startMs },
+          false,
+        );
+      } else {
+        await player.setPositionAsync(startMs);
+        await player.playAsync();
+      }
+      setPlaying(true);
+    } catch (err) {
+      setPlayError(err instanceof Error ? err.message : 'Playback failed');
+      setPlaying(false);
+    } finally {
+      setBusy(false);
     }
   }
 
@@ -183,38 +252,48 @@ function CitationCard({ citation }: { citation: AskCitation }) {
         <Text style={styles.frameHint}>Visual: {citation.frame_hint}</Text>
       ) : null}
 
-      {citation.frame_image_url ? (
-        <Image
-          source={{
-            uri: citation.frame_image_url.startsWith('http')
-              ? citation.frame_image_url
-              : `${API_URL}${citation.frame_image_url}`,
-          }}
-          style={styles.frameImage}
-        />
-      ) : null}
-
-      {mediaUri ? (
-        <View style={styles.snippet}>
+      <View style={styles.snippet}>
+        {showPlayer && mediaUri ? (
           <Video
             ref={videoRef}
             style={styles.video}
-            source={{ uri: mediaUri }}
-            useNativeControls={false}
-            resizeMode={ResizeMode.COVER}
+            useNativeControls
+            resizeMode={ResizeMode.CONTAIN}
             isLooping={false}
+            progressUpdateIntervalMillis={250}
             onPlaybackStatusUpdate={(s) => {
-              if (!s.isLoaded) return;
+              if (!s.isLoaded) {
+                if ('error' in s && s.error) {
+                  setPlayError(String(s.error));
+                  setPlaying(false);
+                }
+                return;
+              }
+              setPlaying(s.isPlaying);
               if (s.didJustFinish) setPlaying(false);
             }}
           />
-          <Pressable style={styles.playBtn} onPress={togglePlay}>
-            <Text style={styles.playBtnText}>
-              {playing ? 'Pause snippet' : `Play from ${mm}:${ss}`}
-            </Text>
+        ) : frameUri ? (
+          <Image source={{ uri: frameUri }} style={styles.frameImage} />
+        ) : (
+          <View style={[styles.frameImage, styles.framePlaceholder]}>
+            <Text style={styles.framePlaceholderText}>No preview frame</Text>
+          </View>
+        )}
+
+        {mediaUri ? (
+          <Pressable style={styles.playBtn} onPress={onPlayPress} disabled={busy}>
+            {busy ? (
+              <ActivityIndicator color="#8fdb9a" />
+            ) : (
+              <Text style={styles.playBtnText}>
+                {playing ? 'Pause' : `Play snippet from ${mm}:${ss}`}
+              </Text>
+            )}
           </Pressable>
-        </View>
-      ) : null}
+        ) : null}
+        {playError ? <Text style={styles.playError}>{playError}</Text> : null}
+      </View>
     </View>
   );
 }
@@ -330,15 +409,16 @@ const styles = StyleSheet.create({
   frameHint: { color: '#8f887c', marginTop: 4, fontSize: 12 },
   frameImage: {
     width: '100%',
-    height: 140,
+    height: 180,
     borderRadius: 10,
     backgroundColor: '#0a0c0e',
-    marginTop: 8,
   },
+  framePlaceholder: { alignItems: 'center', justifyContent: 'center' },
+  framePlaceholderText: { color: '#8f887c', fontSize: 12 },
   snippet: { marginTop: 10, gap: 8 },
   video: {
     width: '100%',
-    height: 160,
+    height: 180,
     borderRadius: 10,
     backgroundColor: '#0a0c0e',
   },
@@ -348,8 +428,11 @@ const styles = StyleSheet.create({
     paddingHorizontal: 12,
     paddingVertical: 8,
     borderRadius: 8,
+    minHeight: 34,
+    justifyContent: 'center',
   },
   playBtnText: { color: '#8fdb9a', fontWeight: '700', fontSize: 12 },
+  playError: { color: '#e35d4b', fontSize: 12, lineHeight: 16 },
   hintCard: {
     marginTop: 18,
     padding: 16,

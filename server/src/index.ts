@@ -1,6 +1,9 @@
 import {
   existsSync,
   mkdirSync,
+  openSync,
+  readSync,
+  closeSync,
   readFileSync,
   writeFileSync,
   readdirSync,
@@ -137,16 +140,8 @@ app.get('/media/:note_id', (c) => {
   if (!note?.video_path || !existsSync(note.video_path)) {
     return c.text('media not found', 404);
   }
-  const bytes = readFileSync(note.video_path);
-  return new Response(bytes, {
-    status: 200,
-    headers: {
-      'Content-Type': 'video/mp4',
-      'Content-Length': String(bytes.length),
-      'Accept-Ranges': 'bytes',
-      'Cache-Control': 'public, max-age=3600',
-    },
-  });
+  // iOS AVPlayer (Expo Video) requires real HTTP Range / 206 responses.
+  return serveMp4WithRanges(c.req.raw, note.video_path);
 });
 
 app.get('/frames/:note_id/:t', (c) => {
@@ -519,6 +514,61 @@ function recordCost(
 ): CostReport {
   const base = estimateCost(MODEL, usage);
   return logModelCost(COSTS, { ...base, op, note_id });
+}
+
+function serveMp4WithRanges(req: Request, filePath: string): Response {
+  const size = statSync(filePath).size;
+  const range = req.headers.get('range');
+  const baseHeaders: Record<string, string> = {
+    'Content-Type': 'video/mp4',
+    'Accept-Ranges': 'bytes',
+    'Cache-Control': 'public, max-age=3600',
+  };
+
+  if (!range) {
+    const bytes = readFileSync(filePath);
+    return new Response(bytes, {
+      status: 200,
+      headers: {
+        ...baseHeaders,
+        'Content-Length': String(size),
+      },
+    });
+  }
+
+  const match = /bytes=(\d*)-(\d*)/.exec(range);
+  if (!match) {
+    return new Response('Invalid Range', { status: 416 });
+  }
+
+  let start = match[1] ? Number(match[1]) : 0;
+  let end = match[2] ? Number(match[2]) : size - 1;
+  if (Number.isNaN(start) || Number.isNaN(end) || start < 0 || start >= size) {
+    return new Response('Range Not Satisfiable', {
+      status: 416,
+      headers: { 'Content-Range': `bytes */${size}` },
+    });
+  }
+  if (end >= size) end = size - 1;
+  if (end < start) end = start;
+
+  const chunkSize = end - start + 1;
+  const buffer = Buffer.alloc(chunkSize);
+  const fd = openSync(filePath, 'r');
+  try {
+    readSync(fd, buffer, 0, chunkSize, start);
+  } finally {
+    closeSync(fd);
+  }
+
+  return new Response(buffer, {
+    status: 206,
+    headers: {
+      ...baseHeaders,
+      'Content-Length': String(chunkSize),
+      'Content-Range': `bytes ${start}-${end}/${size}`,
+    },
+  });
 }
 
 /** Keep Ask UI citation cards filled even when the model answers negatively. */
