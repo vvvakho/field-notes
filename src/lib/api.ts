@@ -138,24 +138,37 @@ async function waitForNote(
   return latest;
 }
 
+async function readJson<T>(res: Response, label: string): Promise<T> {
+  const text = await res.text();
+  const trimmed = text.trim();
+  if (
+    !res.ok ||
+    trimmed.startsWith('<!DOCTYPE') ||
+    trimmed.startsWith('<html') ||
+    /Cloudflare Tunnel error/i.test(trimmed)
+  ) {
+    throw new Error(
+      `${label} failed (${res.status}). Tunnel/API unreachable — restart cloudflared and reload Expo.`,
+    );
+  }
+  try {
+    return JSON.parse(trimmed) as T;
+  } catch {
+    throw new Error(`${label} returned non-JSON (${res.status})`);
+  }
+}
+
 export async function askFieldNotes(question: string): Promise<AskResponse> {
   const res = await fetch(`${API_URL}/ask`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ question }),
   });
-
-  if (!res.ok) {
-    const text = await res.text();
-    throw new Error(text || `Ask failed (${res.status})`);
-  }
-
-  return (await res.json()) as AskResponse;
+  return readJson<AskResponse>(res, 'Ask');
 }
 
 export async function listServerNotes(): Promise<FieldNote[]> {
   const res = await fetch(`${API_URL}/notes`);
-  if (!res.ok) throw new Error('Failed to list notes');
-  const data = (await res.json()) as { notes: FieldNote[] };
+  const data = await readJson<{ notes: FieldNote[] }>(res, 'List notes');
   return data.notes;
 }

@@ -39,3 +39,10 @@ data/videos/test-*.mp4
 data/videos/phone_sim_*.mp4
 *.raw.mp4
 .claude/
+
+# demo tunnel runtime
+data/tunnel-url.txt
+data/tunnel.pid
+data/tunnel.log
+data/api.log
+data/api.pid
