@@ -46,3 +46,9 @@ data/tunnel.pid
 data/tunnel.log
 data/api.log
 data/api.pid
+data/metro-tunnel-url.txt
+data/tunnel-api.log
+data/tunnel-metro.log
+data/metro-boot.log
+data/web.log
+data/*.pid
