@@ -1,4 +1,4 @@
-# Field Notes
+# Field Notes (Cursor Hackathon Project)
 
 Capture on site with your phone. Ask later — get answers with cited video, transcript, and frames.
 
